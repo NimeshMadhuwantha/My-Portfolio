@@ -60,9 +60,27 @@ body {
     font-weight: 450;
     
 }
+
+.SideBarListItems h2:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    font-weight: 450;
+    color: #00A4C9;
+
+}
 .SocialMediaListItems img{
     height: 30px;
     width: auto;
+    background-color: white; /* Default background color */
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+
+}
+.SocialMediaListItems img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    background-color: #00A4C9;
+    border-radius: 5px;
 
 }
 .SocialMediaListItems{
@@ -70,7 +88,6 @@ body {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    
 }
 .FotterName{
     padding-top: 20px;
