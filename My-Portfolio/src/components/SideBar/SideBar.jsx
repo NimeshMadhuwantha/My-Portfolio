@@ -15,6 +15,18 @@ export default function SideBar() {
            <h5 >Full Stack Developer</h5>
            <h5 className='Myoccupation2'>UI/UX Engineer</h5>
           </div>
+
+          <div className='SideBarList'>
+            
+              <nav className='SideBarListItems'>
+                <li><h2>Home</h2></li>
+                <li><h2>About Me</h2></li>
+                <li><h2>Portfolio</h2></li>
+                <li><h2>Skills</h2></li>
+                <li><h2>Contact</h2></li>
+              </nav>
+            
+          </div>
           
       </div>
     </div>

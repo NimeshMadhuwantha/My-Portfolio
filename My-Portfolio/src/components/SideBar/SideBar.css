@@ -4,7 +4,7 @@ body {
 }
 .sideBarContent{
     border: none;
-    width: 23%;
+    width: 20%;
     min-height: 800px;
     height: 100%;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
@@ -12,13 +12,11 @@ body {
     flex-direction: column;
     align-items: center;
     
-
 }
 
 .SideBarMylogo{
     height: 130px;
     width: auto;
-
 }
 .SBmylogo{
    
@@ -37,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: -30px;
+    margin-top: -30px;
 }
 .MyOccupation h5{
     font-size: 14px;
@@ -45,5 +43,18 @@ body {
     opacity: 0.8;
 }
 .Myoccupation2{
-    margin: -25px;
+    margin-top: -25px;
+}
+.SideBarListItems{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -21%;
+    
+}
+.SideBarListItems h2{
+    font-size: 16px;
+    font-weight: 450;
+    
 }
