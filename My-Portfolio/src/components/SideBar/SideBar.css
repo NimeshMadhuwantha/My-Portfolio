@@ -20,7 +20,7 @@ body {
 }
 .SBmylogo{
    
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .MynameSB{
@@ -46,15 +46,45 @@ body {
     margin-top: -25px;
 }
 .SideBarListItems{
+    margin-top: 20px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: -21%;
+    line-height: 1.4;
     
 }
 .SideBarListItems h2{
     font-size: 16px;
     font-weight: 450;
     
+}
+.SocialMediaListItems img{
+    height: 30px;
+    width: auto;
+
+}
+.SocialMediaListItems{
+    padding-top: 50px;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    
+}
+.FotterName{
+    padding-top: 20px;
+
+}
+.FotterName h2{
+    
+    font-size: 14px;
+    font-weight: 250;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.FotterName2{
+    margin-top: -10px;
 }

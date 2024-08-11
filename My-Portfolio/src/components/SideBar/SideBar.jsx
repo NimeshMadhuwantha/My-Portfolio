@@ -1,6 +1,11 @@
 import React from 'react'
 import './SideBar.css';
 import Mylogo from '../../assets/Mylogo.png';
+import BehanceIcon from '../../assets/SocialMediaIcons/BehanceIcon.png';
+import dribbleIcon from '../../assets/SocialMediaIcons/dribbleIcon.png';
+import facebookIcon from '../../assets/SocialMediaIcons/facebookIcon.png';
+import githubIcon from '../../assets/SocialMediaIcons/githubIcon.png';
+import linkedinIcon from '../../assets/SocialMediaIcons/linkedinIcon.png';
 
 
 export default function SideBar() {
@@ -27,8 +32,26 @@ export default function SideBar() {
               </nav>
             
           </div>
+          <div className='SocialMediaList'>
+            
+              <nav className='SocialMediaListItems'>
+                <li><img src={linkedinIcon}/></li>
+                <li><img src={githubIcon}/></li>
+                <li><img src={BehanceIcon}/></li>
+                <li><img src={facebookIcon}/></li>
+                <li><img src={dribbleIcon}/></li>
+              </nav>
+            
+          </div>
+           <div className='FotterName'>
+            <h2>Copyright @ 2024 Nimesh. All</h2>
+            <h2 className='FotterName2'>rights reserved</h2>
+
+           </div>
           
       </div>
+      
+
     </div>
   )
 }
