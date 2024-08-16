@@ -1,13 +1,14 @@
 import React from 'react';
-import SideBar from '../../components/SideBar/SideBar';
+import './Home.css'
 
 
 function Home() {
   return (
     <div>
       
-      <div>
-        <h1>this is my home page</h1>
+      <div className='HomeMainContent'>
+        
+        
       </div>
     </div>
   );

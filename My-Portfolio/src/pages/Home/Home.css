@@ -1,0 +1,12 @@
+
+.HomeMainContent {
+    border: none;
+    width: 80%; 
+    height: 100vh; 
+    min-height: 720px;  
+    background-color: #E9FBFF; 
+    position: fixed;
+    left: 20%; 
+    margin-left: 8px;   
+  }
+  

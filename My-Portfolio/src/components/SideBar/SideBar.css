@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .sideBarContent{
+    z-index: 1;
     border: none;
     width: 20%;
     height: 100%;
