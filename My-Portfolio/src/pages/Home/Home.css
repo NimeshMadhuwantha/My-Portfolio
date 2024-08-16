@@ -10,34 +10,29 @@
     margin-left: 8px;   
   }
   .HomeTopText{
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 5%;
   }
   .HomeTopText h1{
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 460;
     opacity: 90%;
   }
   .NimeshTopText{
-    margin-left: 10px;
-    font-size: 35px;
+    margin-left: 13px;
+    font-size: 36px;
     font-weight: 600;
     color: #00A4C9;
   }
   .ChangingText{
-    margin-top: -20px;
+    margin-top: -18px;
   }
   .ChangingText .FSDtop{
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 500;
     opacity: 80%; 
   }
-  .ChangingText{
-    overflow: hidden;
-    gap: 2;
-    height: 50px;  
-    
-  }
+ 
   .FSDtop{
     display: block;
     height: 100%;
@@ -47,8 +42,7 @@
   }
   .ChangingText {
     overflow: hidden;
-    gap: 2px;
-    height: 50px; 
+    height: 70px; 
     opacity: 78%;
 }
 
@@ -82,5 +76,29 @@
         opacity: 1;
     }
 }
+.HomeTopDescription{
+  width: 45%;
+  margin-top: 0px;
+  opacity: 70%;
+}
+.HomeTopDescription h2{
+  font-size: 16px;
+  font-weight: 390;
 
+}
+.HomeWelcomeText{
+  font-size: 20px;
+  font-weight: 540;
+}
+.HomeMyPhoto{
+  width: 30%;
+  margin-left: 50%;
+  margin-top: -430px;
+
+}
+.HomeMyPhoto img{
+  width: 560px;
+  height: auto;
+
+}
   
