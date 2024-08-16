@@ -14,7 +14,7 @@ export default function SideBar() {
     <div className='sideBarMain'>
       <div className='sideBarContent'>
           <div className='SBmylogo'>
-            <img className='SideBarMylogo' src={Mylogo}  />
+            <Link to="/"><img className='SideBarMylogo' src={Mylogo}  /></Link>
           </div>
           <h1 className='MynameSB'>Nimesh Madhuwantha</h1>
           <div className='MyOccupation'>
