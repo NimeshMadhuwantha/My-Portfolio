@@ -9,4 +9,60 @@
     left: 20%; 
     margin-left: 8px;   
   }
-  
+  .HomeTopText{
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .HomeTopText h1{
+    font-size: 26px;
+    font-weight: 460;
+    opacity: 90%;
+  }
+  .NimeshTopText{
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #00A4C9;
+  }
+  .ChangingText{
+    margin-top: -20px;
+  }
+  .ChangingText .FSDtop{
+    font-size: 35px;
+    font-weight: 500;
+    opacity: 80%; 
+  }
+  .ChangingText{
+    overflow: hidden;
+    gap: 2;
+    height: 40px;
+    line-height: 1.9;
+    
+    
+  }
+  .FSDtop{
+    display: block;
+    height: 100%;
+    width: max-content;
+    border: none;
+
+    
+    animation: spin_words 6s infinite;
+  }
+  @keyframes spin_words{
+    20%{
+        transform: translateY(-112%);
+    }
+    40%{
+        transform: translateY(-100%);
+    }
+    60%{
+        transform: translateY(-212%);
+    }
+    80%{
+      transform: translateY(-200%);
+    }
+    100%{
+    transform: translateY(-312%);
+    }   
+}
