@@ -1,6 +1,15 @@
 import React from 'react';
 import './Home.css'
 import MyPhoto from '../../assetS/MyPhoto.png';
+import ReactIcon from '../../assets/ToolsIcons/ReactIcon.png';
+import javaScriptIcon from '../../assets/ToolsIcons/javaScriptIcon.png';
+import PHPIcon from '../../assets/ToolsIcons/PHPIcon.png';
+import FigmaIcon from '../../assets/ToolsIcons/FigmaIcon.png';
+import PhotoShopIcon from '../../assets/ToolsIcons/PhotoShopIcon.png';
+import BlenderIcon from '../../assets/ToolsIcons/BlenderIcon.png';
+import SketchIcon from '../../assets/ToolsIcons/SketchIcon.png';
+import BrushIcon from '../../assets/ToolsIcons/BrushIcon.png';
+
 
 
 
@@ -53,6 +62,37 @@ function Home() {
              </button>
           </div> 
         </div> 
+
+        <div className='Home_BottomText'>
+          <h1><span>|</span>What I do</h1>
+        </div>
+
+        <div className='Home_Buttom_Cards'>
+          <div className='Home_Buttom_Card1'>
+            <div className='Home_Card1_Icons'>
+              <img src={ReactIcon} alt="" />
+              <img src={javaScriptIcon} alt="" />
+              <img src={PHPIcon} alt="" />
+            </div>
+            <h1>FULL STACK DEVELOPMENT</h1>
+          </div>
+          <div className='Home_Buttom_Card2'>
+          <div className='Home_Card2_Icons'>
+              <img src={FigmaIcon} alt="" />
+              <img src={PhotoShopIcon} alt="" />
+              <img src={BlenderIcon} alt="" />
+            </div>
+            <h1>UIUX DESIGN</h1>
+          </div>
+          <div className='Home_Buttom_Card3'>
+          <div className='Home_Card3_Icons'>
+              <img src={SketchIcon} alt="" />
+              <img src={BrushIcon} alt="" />
+              
+            </div>
+            <h1>SKETCH |  DRAWING</h1>
+          </div>
+        </div>
 
       </div>
     </div>

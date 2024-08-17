@@ -12,7 +12,7 @@
   }
   .HomeTopText{
     margin-left: 9%;
-    margin-top: 5%;
+    margin-top: 50px;
   }
   .HomeTopText h1{
     font-size: 28px;
@@ -80,7 +80,7 @@
 }
 .HomeTopDescription{
   width: 45%;
-  margin-top: 20px;
+  margin-top: 15px;
   opacity: 70%;
 }
 .HomeTopDescription h2{
@@ -102,10 +102,90 @@
   margin-left: 9%;
   display: flex;
   gap: 30px;
-  margin-top: -60px;
+  margin-top: -80px;
 }
-
-
-
-
+.Home_BottomText{
+  margin-left: 9%;
+  margin-top: 30px;
+}
+.Home_BottomText span{
+  font-size: 50px;
+  color: #00A4C9;
+  padding-right: 10px;
+}
+.Home_BottomText h1{
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 70%;
+}
+.Home_Buttom_Cards{
+  margin-left: 9%;
+  margin-top: 12px;
+  display: flex;
+  gap: 45px;
+}
+.Home_Buttom_Card1{
+  height: 130px;
+  width: 280px;
+  background-color: #CCDCE2;
+  align-items: center;
+}
+.Home_Card1_Icons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.Home_Card1_Icons img{
+  height: 45px;
+}
+.Home_Buttom_Card1 h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 95%;
+}
+.Home_Buttom_Card2{
+  height: 130px;
+  width: 280px;
+  background-color: #DCF1F4;
+}
+.Home_Card2_Icons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.Home_Card2_Icons img{
+  height: 45px;
+}
+.Home_Buttom_Card2 h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 95%;
+}
+.Home_Buttom_Card3{
+  height: 130px;
+  width: 280px;
+  background-color: #E9F0F0;
+}
+.Home_Card3_Icons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.Home_Card3_Icons img{
+  height: 45px;
+}
+.Home_Buttom_Card3 h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 95%;
+}
   
