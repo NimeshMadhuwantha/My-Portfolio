@@ -31,7 +31,7 @@ body {
 
 .My_nameSB{
     
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
 
@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 .My_Occupation h5{
     font-size: 14px;

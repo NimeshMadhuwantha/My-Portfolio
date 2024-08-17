@@ -1,0 +1,28 @@
+.About_MainContent{
+    border: none;
+    width: 80%; 
+    height: 100vh; 
+    min-height: 720px;  
+    background-color: #E9FBFF; 
+    position: fixed;
+    left: 20%; 
+}
+.About_TopContent{
+    margin-left: 9%;
+    margin-top: 50px;
+}
+.About_Nice_to_meet_Text{
+    font-size: 15px;
+    font-weight: 500;   
+}
+.About_MyName{
+    font-size: 30px;
+    font-weight: 600;
+    color: #045B60;
+}
+.About_MyOccupation{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 60%;
+
+}
