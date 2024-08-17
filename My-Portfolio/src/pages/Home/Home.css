@@ -1,4 +1,5 @@
 
+
 .HomeMainContent {
     border: none;
     width: 80%; 
@@ -7,10 +8,10 @@
     background-color: #E9FBFF; 
     position: fixed;
     left: 20%; 
-    margin-left: 8px;   
+      
   }
   .HomeTopText{
-    margin-left: 8%;
+    margin-left: 9%;
     margin-top: 5%;
   }
   .HomeTopText h1{
@@ -25,7 +26,7 @@
     color: #00A4C9;
   }
   .ChangingText{
-    margin-top: -18px;
+    margin-top: -10px;
   }
   .ChangingText .FSDtop{
     font-size: 38px;
@@ -44,6 +45,7 @@
     overflow: hidden;
     height: 70px; 
     opacity: 78%;
+    margin-top: -5px;
 }
 
 .FSDtop {
@@ -78,7 +80,7 @@
 }
 .HomeTopDescription{
   width: 45%;
-  margin-top: 0px;
+  margin-top: 20px;
   opacity: 70%;
 }
 .HomeTopDescription h2{
@@ -91,14 +93,19 @@
   font-weight: 540;
 }
 .HomeMyPhoto{
-  width: 30%;
-  margin-left: 50%;
-  margin-top: -430px;
+  width: 42%;
+  margin-left: 53%;
+  margin-top: -395px;
 
 }
-.HomeMyPhoto img{
-  width: 560px;
-  height: auto;
-
+.Home_Buttons{
+  margin-left: 9%;
+  display: flex;
+  gap: 30px;
+  margin-top: -60px;
 }
+
+
+
+
   

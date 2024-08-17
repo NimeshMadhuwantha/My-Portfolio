@@ -2,7 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-.sideBarContent{
+.side_BarContent{
     z-index: 1;
     border: none;
     width: 20%;
@@ -15,44 +15,43 @@ body {
     
 }
 
-.SideBarMylogo{
+.Side_BarMylogo{
     height: 130px;
     width: auto;
 }
-.SideBarMylogo:hover{
+.Side_BarMylogo:hover{
     transform: scale(1.04);
     transition: 1s;
     cursor: pointer;
 }
-.SBmylogo{
+.SB_mylogo{
    
     padding-top: 30px;
 }
 
-.MynameSB{
+.My_nameSB{
     
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
 
 }
-.MyOccupation{
+.My_Occupation{
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -30px;
+    margin-top: 3px;
 }
-.MyOccupation h5{
+.My_Occupation h5{
     font-size: 14px;
     font-weight: 5;
     opacity: 0.8;
 }
-.Myoccupation2{
-    margin-top: -25px;
-}
-.SideBarListItems{
-    margin-top: 20px;
+
+.Side_BarListItems{
+    margin-top: 55px;
+    gap: 30px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -61,18 +60,18 @@ body {
     line-height: 1.5;
     
 }
-.SideBarListItems a{
+.Side_BarListItems a{
     text-decoration: none;
     color: black;
     opacity: 90%;
 }
-.SideBarListItems h2{
+.Side_BarListItems h2{
     font-size: 15px;
     font-weight: 450;
     
 }
 
-.SideBarListItems h2:hover{
+.Side_BarListItems h2:hover{
     transform: scale(1.1);
     transition: 0.7s;
     font-weight: 450;
@@ -80,7 +79,7 @@ body {
     cursor: pointer;
 
 }
-.SocialMediaListItems img{
+.Social_MediaListItems img{
     height: 30px;
     width: auto;
     background-color: white; 
@@ -88,7 +87,7 @@ body {
     border-radius: 5px;
 
 }
-.SocialMediaListItems img:hover{
+.Social_MediaListItems img:hover{
     transform: scale(1.1);
     transition: 0.7s;
     background-color: #00A4C9;
@@ -97,17 +96,17 @@ body {
 
 }
 
-.SocialMediaListItems{
-    padding-top: 50px;
+.Social_MediaListItems{
+    margin-top: 70px;
     list-style-type: none;
     display: flex;
     gap: 15px;
 }
-.FotterName{
-    padding-top: 20px;
+.Fotter_Name{
+    margin-top: 30px;
 
 }
-.FotterName h2{
+.Fotter_Name h2{
     
     font-size: 14px;
     font-weight: 250;
@@ -115,7 +114,4 @@ body {
     flex-direction: column;
     align-items: center;
     
-}
-.FotterName2{
-    margin-top: -10px;
 }

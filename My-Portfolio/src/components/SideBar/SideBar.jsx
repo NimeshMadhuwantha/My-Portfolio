@@ -11,20 +11,20 @@ import linkedinIcon from '../../assets/SocialMediaIcons/linkedinIcon.png';
 
 export default function SideBar() {
   return (
-    <div className='sideBarMain'>
-      <div className='sideBarContent'>
-          <div className='SBmylogo'>
-            <Link to="/"><img className='SideBarMylogo' src={Mylogo}  /></Link>
+    <div className='side_BarMain'>
+      <div className='side_BarContent'>
+          <div className='SB_mylogo'>
+            <Link to="/"><img className='Side_BarMylogo' src={Mylogo}  /></Link>
           </div>
-          <h1 className='MynameSB'>Nimesh Madhuwantha</h1>
-          <div className='MyOccupation'>
+          <h1 className='My_nameSB'>Nimesh Madhuwantha</h1>
+          <div className='My_Occupation'>
            <h5 >Full Stack Developer</h5>
-           <h5 className='Myoccupation2'>UI/UX Engineer</h5>
+           <h5 className='My_occupation2'>UI/UX Engineer</h5>
           </div>
 
-          <div className='SideBarList'>
+          <div className='Side_BarList'>
             
-              <nav className='SideBarListItems'>
+              <nav className='Side_BarListItems'>
                 <li><Link to="/"><h2>Home</h2></Link></li>
                 <li><Link to="/AboutMe"><h2>About Me</h2></Link></li>
                 <li><Link to="/Portfolio"><h2>Portfolio</h2></Link></li>
@@ -33,9 +33,9 @@ export default function SideBar() {
               </nav>
             
           </div>
-          <div className='SocialMediaList'>
+          <div className='Social_MediaList'>
             
-              <nav className='SocialMediaListItems'>
+              <nav className='Social_MediaListItems'>
               <li><a href='https://www.linkedin.com/in/nimesh-madhuwantha-8a37102b4/' target='_blank' rel='noopener noreferrer'><img src={linkedinIcon} alt='' /></a></li>
               <li><a href='https://github.com/NimeshMadhuwantha' target='_blank' rel='noopener noreferrer'><img src={githubIcon} alt='GitHub' /></a></li>
               <li><a href='https://www.behance.net/nimeshmadhu' target='_blank' rel='noopener noreferrer'><img src={BehanceIcon} alt='Behance' /></a></li>
@@ -44,9 +44,9 @@ export default function SideBar() {
               </nav>
             
           </div>
-           <div className='FotterName'>
+           <div className='Fotter_Name'>
             <h2>Copyright @ 2024 Nimesh. All</h2>
-            <h2 className='FotterName2'>rights reserved</h2>
+            <h2 className='Fotter_Name2'>rights reserved</h2>
 
            </div>
           

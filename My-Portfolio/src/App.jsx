@@ -7,6 +7,7 @@ import AboutMe from './pages/AboutMe/AboutMe';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Skills from './pages/Skills/Skills';
 
+
 export default function App() {
   return (
     <div>
