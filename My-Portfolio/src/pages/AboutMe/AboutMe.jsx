@@ -70,8 +70,12 @@ export default function AboutMe() {
          </div>
 
          <div className='About_Bottom_Edu'>
-
-         </div>
+          <h1>Undergraduate student at the Faculty of Computing, Sabaragamuwa University of Sri Lanka. <br />  
+          <span>BSc (Hons) in Computing and Information Systems degree program.</span></h1>
+          <div className='About_School'>
+            <h1>School -  Ruhunu Vijayaba National Collage</h1>
+          </div>
+          </div>
 
        </div>
       </div>

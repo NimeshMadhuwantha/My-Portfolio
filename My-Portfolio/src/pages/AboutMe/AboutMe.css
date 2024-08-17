@@ -119,3 +119,13 @@
     background-color: #CCDCE2;
     margin-left: 9%;
 }
+.About_Bottom_Edu h1{
+    font-size: 14px;
+    margin-left: 40px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.About_Bottom_Edu span{
+    color: #023E57;
+    font-weight: 900;
+}
