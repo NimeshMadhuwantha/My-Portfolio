@@ -9,20 +9,113 @@
 }
 .About_TopContent{
     margin-left: 9%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .About_Nice_to_meet_Text{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;   
 }
 .About_MyName{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
     color: #045B60;
 }
 .About_MyOccupation{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     opacity: 60%;
+}
+.About_Buttons{
+    margin-left: 9%;
+    display: flex;
+    gap: 30px;
+    margin-top: 25PX;
+}
+.About_Myphoto{
+    margin-left: 762px;
+    margin-top: -245px;
+}
+.About_Myphoto img{
+    height: 360px;
+}
 
+.About_MeText{
+    margin-left: 9%;
+    margin-top: -85px;
+}
+.About_MeText span{
+    font-size: 50px;
+    color: #A2C3C6;
+    padding-right: 10px;
+}
+.About_MeText h1{
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 70%;
+}
+.About_AboutMePara{
+    margin-left: 9%;
+    width: 950px;
+    margin-top: 10px;
+}
+.About_AboutMePara{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 80%;
+}
+.About_MyCards{
+    display: flex;
+    gap: 36px;
+    margin-left: 9%;
+    margin-top: 15px;
+}
+.About_NameCard{
+    height: 80px;
+    width: 380px;
+    background-color: #CCDCE2;
+}
+.About_BDCard{
+    height: 80px;
+    width: 140px;
+    background-color: #CCDCE2;
+}
+.About_NationalCard{
+    height: 80px;
+    width: 140px;
+    background-color: #CCDCE2;
+}
+.About_LanguageCard{
+    height: 80px;
+    width: 180px;
+    background-color: #CCDCE2;
+}
+.About_MyCards h1{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 25px;
+    line-height: 0;
+}
+.NamecardText{
+    font-weight: 700;
+}
+
+.About_Education{
+    margin-left: 9%;
+    
+}
+.About_Education span{
+    font-size: 50px;
+    color: #A2C3C6;
+    padding-right: 10px;
+}
+.About_Education h1{
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 70%;
+}
+.About_Bottom_Edu{
+    height: 120px;
+    width: 950px;
+    background-color: #CCDCE2;
+    margin-left: 9%;
 }
