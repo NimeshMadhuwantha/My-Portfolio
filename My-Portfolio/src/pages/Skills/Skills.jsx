@@ -38,8 +38,41 @@ export default function Skills() {
             <h1>Fiverr</h1>
           </div>
         </div>
-
         </div>
+
+        <div className='Skills_Exp_Cards'>
+           <div className='Skills_Exp_Card1'>
+            <h1 className='Skills_Card1_Text1'>4+ </h1>
+            <div className='Skills_Card1_Bottom'>
+              <h1 className='Skills_Card1_Text2'>Years of Experience in <span> Fiverr</span></h1>
+              <h1 className='Skills_Card1_Text3'>Managing client relationships and delivering projects 
+                <span>UIUX  | SKETCHING</span>
+              </h1>
+            </div>
+
+           </div>
+           <div className='Skills_Exp_Card2'>
+             <h1 className='Skills_Card1_Text1'>8+  </h1>
+             <div className='Skills_Card1_Bottom'>
+              <h1 className='Skills_Card2_Text2'>Projects Completed in <span> GitHub</span></h1>
+              <h1 className='Skills_Card1_Text3'>Collaborating with teams and project management
+                <span>FULL STACK DEVELOPMENT</span>
+              </h1>
+            </div>
+            
+           </div>
+           <div className='Skills_Exp_Card3'>
+             <h1 className='Skills_Card1_Text1'>50+  </h1>
+             <div className='Skills_Card1_Bottom'>
+              <h1 className='Skills_Card3_Text2'>Happy Customer <span>Feedbacks</span></h1>
+              <h1 className='Skills_Card3_Text3'>UI/UX, Graphic Designing, Sketching, Idea Development 
+                <span>FIVERR |  BEHANCE</span>
+              </h1>
+            </div>
+            
+           </div>
+        </div>
+
     </div>
   )
 }
