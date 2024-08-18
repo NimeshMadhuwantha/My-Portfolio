@@ -2,6 +2,10 @@ import React from 'react'
 import './Skills.css'
 import BehanceLogo from '../../assets/SkillPage/BehanceLogo.png';
 import FiverrLogo from '../../assets/SkillPage/FiverrLogo.png';
+import UIUXEngLogo from '../../assets/SkillPage/UIUXEngLogo.png';
+import FullStackLogo from '../../assets/SkillPage/FullStackLogo.png';
+import GraphicDesign from '../../assets/SkillPage/GraphicDesign.png';
+import DrawingLogo2 from '../../assets/SkillPage/DrawingLogo2.png';
 
 export default function Skills() {
   return (
@@ -71,6 +75,52 @@ export default function Skills() {
             </div>
             
            </div>
+        </div>
+
+        <div className='Skills_MySkills'>
+          <h1><span>|</span>My Skills</h1>
+        </div>
+
+        <div className='Skills_Bottom_Cards'>
+
+          <div className='Skills_Bottom_Card1'>
+            <img src={UIUXEngLogo} alt="" />
+            <h1>UI/UX ENGINEER </h1>
+            <hr />
+            <h2>UI/UX Engineering</h2>
+            <h2>   UI/UX Design</h2>
+            <h2>Creative Imagination</h2>
+            <h2>Graphic Design</h2>
+
+          </div>
+          <div className='Skills_Bottom_Card2'>
+            <img src={FullStackLogo} alt="" />
+            <h1>FULL STACK DEVELOPMENT </h1>
+            <hr />
+            <h2>HTML/CSS</h2>
+            <h2>JavaScript</h2>
+            <h2>Front-End Frameworks</h2>
+            <h2>Back-End Development</h2>
+          </div>
+          <div className='Skills_Bottom_Card3'>
+            <img src={GraphicDesign} alt="" />
+            <h1>GRAPHIC DESIGN</h1>
+            <hr />
+            <h2>UI/UX Design</h2>
+            <h2>3D Modeling</h2>
+            <h2>Photo/Video Editing</h2>
+            <h2>Illustration</h2>
+          </div>
+          <div className='Skills_Bottom_Card4'>
+            <img src={DrawingLogo2} alt="" />
+            <h1>ART SKIILS </h1>
+            <hr />
+            <h2>Sketching</h2>
+            <h2>Concept Art</h2>
+            <h2>Drawing/Painting</h2>
+            <h2>Pencil Art</h2>
+          </div>
+
         </div>
 
     </div>

@@ -162,3 +162,152 @@
     font-weight: 600;
     margin-left: 60px;
 }
+.Skills_MySkills{
+    margin-left: 9%;
+    margin-top: 30px;
+    
+}
+.Skills_MySkills span{
+    font-size: 45px;
+    color: #A2C3C6;
+    padding-right: 10px;
+}
+.Skills_MySkills h1{
+    font-size: 28px;
+    font-weight: 600;
+    opacity: 70%;
+}
+
+.Skills_Bottom_Cards{
+    display: flex;
+    margin-left: 9%;
+    gap: 36px;   
+}
+.Skills_Bottom_Cards img{
+    height: 70px;  
+}
+
+.Skills_Bottom_Card1{
+    width: 210px;
+    height: 200px;
+    background-color: #B4D8DB;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.Skills_Bottom_Card1 hr{
+    border: none; 
+    height: 2px; 
+    background-color: #002737; 
+    width: 80%; 
+    margin-top: 2px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card1 h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: #002737;
+    margin-top: 10px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card1 h2{
+    font-size: 9px;
+    font-weight: 500;
+    color: #002737;
+}
+.Skills_Bottom_Card2{
+    width: 210px;
+    height: 200px;
+    background-color: #222C34;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.Skills_Bottom_Card2 hr{
+    border: none; 
+    height: 2px; 
+    background-color: #FFFFFF; 
+    width: 80%; 
+    margin-top: 2px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card2 h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 10px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card2 h2{
+    font-size: 9px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.Skills_Bottom_Card3{
+    width: 210px;
+    height: 200px;
+    background-color: #CFD2D4;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.Skills_Bottom_Card3 hr{
+    border: none; 
+    height: 2px; 
+    background-color: #414141; 
+    width: 80%; 
+    margin-top: 2px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card3 h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: #414141;
+    margin-top: 10px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card3 h2{
+    font-size: 9px;
+    font-weight: 500;
+    color: #414141;
+}
+.Skills_Bottom_Card4{
+    width: 210px;
+    height: 200px;
+    background-color: #AFC1CC;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.Skills_Bottom_Card4 hr{
+    border: none; 
+    height: 2px; 
+    background-color: #000000; 
+    width: 80%; 
+    margin-top: 2px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card4 h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 10px;
+    opacity: 80%;
+}
+.Skills_Bottom_Card4 h2{
+    font-size: 9px;
+    font-weight: 500;
+    color: #000000;
+}
