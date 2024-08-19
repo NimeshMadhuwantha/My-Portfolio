@@ -1,0 +1,103 @@
+.Contact_Main{
+    border: none;
+    width: 80%; 
+    height: 100vh; 
+    min-height: 720px;  
+    background-color: #E9FBFF; 
+    position: fixed;
+    left: 20%;
+}
+.Contact_TopContent{
+    margin-left: 9%;
+    margin-top: 60px;
+}
+.Contact_LetsConnect_Text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.Contact_GetTouch{
+    font-size: 40px;
+    font-weight: 600;
+}
+.Contact_GetTouch span{
+    color: #0B969E;
+}
+.Contact_DesPara{
+    margin-top: 8px;
+    font-size: 15px;
+    width: 950px;
+    opacity: 80%;
+}
+.Contact_DesPara span{
+    font-size: 19px;
+    font-weight: 700;
+    color: #023E57;
+}
+.Contact_MiddleContent{
+    height: 440px;
+    width: 950px;
+    background-color: #F4F9FA;
+    border-radius: 8px;
+    margin-left: 9%;
+    margin-top: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.Contact_Details{
+    border-radius: 10px;
+    width: 350px;
+    height: 420px;
+    background-color: #023E57;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.Contact_Details h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Contact_Details h2{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-right: 40px;
+    opacity: 60%;
+}
+.Contact_Icons img{
+    height: 20px;
+    width: 20px;
+    
+}
+.Contact_Icons{
+    margin-top: 20px;
+    opacity: 80%;
+}
+.Contact_Call{
+    display: flex;
+    padding-top: 30px;
+}
+.Contact_Call h1{
+    margin-left: 20px;
+    margin-top: -2px;
+    font-size: 18px;
+}
+.Contact_Mail{
+    display: flex;
+    padding-top: 30px;
+}
+.Contact_Mail h1{
+    margin-left: 20px;
+    margin-top: -2px;
+    font-size: 16px;
+}
+.Contact_Location{
+    display: flex;
+    padding-top: 30px;
+}
+.Contact_Location h1{
+    margin-left: 20px;
+    margin-top: -2px;
+    font-size: 18px;
+}
