@@ -101,3 +101,16 @@
     margin-top: -2px;
     font-size: 18px;
 }
+.Contact_Form{
+    margin-top: -400px;
+    margin-left: 400px;
+}
+.Contact_Email_Input{
+    margin-top: 30px;   
+}
+.Contact_Message_Input{
+    margin-top: 30px;   
+}
+.Contact_Send_Button{
+    margin-top: 40px;
+}
