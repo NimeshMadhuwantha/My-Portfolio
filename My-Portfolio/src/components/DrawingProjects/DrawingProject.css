@@ -16,26 +16,137 @@
 
 .Drawing_Card1 {
     height: 260px;
+    width: 580px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.Drawing_Card1_Img{
+    display: flex;
+}
+.Drawing_MoonArt1{
+    height: 150px;
+    width: 230px;
+    border-top-left-radius: 5px; 
+}
+.Drawing_DogDesign{
+    height: 140px;
+    width: 120px;
+    border-top-right-radius: 5px; 
+}
+
+.Drawing_Card1 h1{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 60%;
+    margin-left: 15px;
+    margin-top: 42px;
+}
+.Drawing_Card1 h2{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 60%;
+    margin-left: 15px;  
+}
+.Drawing_Card2 {
+    height: 260px;
     width: 280px;
     background-color: #ffffff;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
     border: 1px solid black;
     border-radius: 5px;
 }
-
-.Drawing_Card1 h1{
-    font-size: 14px;
+.Drawing_Card2_Img{
+    display: flex;
+}
+.Drawing_Wallpaper{
+    height: 190px;
+    width: 100px;
+    border-top-left-radius: 5px; 
+}
+.Drawing_Card2 h1{
+    font-size: 18px;
     font-weight: 600;
     opacity: 60%;
     margin-left: 15px;
     margin-top: 12px;
-    line-height: 1.2;
 }
-.Drawing_Card1 h2{
+.Drawing_Card2 h2{
     font-size: 10px;
     font-weight: 500;
     opacity: 60%;
+    margin-left: 15px;   
+}
+.Drawing_Card3_Img{
+    display: flex;
+}
+.Drawing_Character{
+    height: 110px;
+    width: 180px;
+    border-top-left-radius: 5px; 
+}
+.Drawing_Character2{
+    height: 140px;
+    width: 90px;
+    border-top-right-radius: 5px; 
+}
+.Drawing_Card3 {
+    height: 260px;
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.Drawing_Card3 h1{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 60%;
     margin-left: 15px;
-    margin-top: 8px;
-    
+    margin-top: 52px;
+}
+.Drawing_Card3 h2{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 60%;
+    margin-left: 15px;   
+}
+.Drawing_Card4_Img{
+    display: flex;
+}
+.Drawing_HumanArt1{
+    height: 190px;
+    width: 145px;
+    border-top-left-radius: 5px; 
+}
+.Drawing_HumanArt2{
+    height: 160px;
+    width: 235px;
+}
+.Drawing_ColorPencil{
+    height: 140px;
+    width: 200px;
+    border-top-right-radius: 5px; 
+}
+.Drawing_Card4 {
+    height: 260px;
+    width: 580px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.Drawing_Card4 h1{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 60%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Drawing_Card4 h2{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 60%;
+    margin-left: 15px;   
 }
