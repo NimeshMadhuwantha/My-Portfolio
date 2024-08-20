@@ -1,0 +1,45 @@
+.WebDevelopment_Main {
+    width: 1000px;
+    height: 600px; 
+    background-color: #F2FFFD;
+    overflow-y: scroll; 
+    padding-right: 10px; 
+}
+
+.WebD_Cards {
+    padding-left: 35px;
+    padding-top: 35PX;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25PX;
+}
+
+.WebD_Card1 {
+    height: 260px;
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.WebDev_Content img{
+    height: 180px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+}
+.WebD_Card1 h1{
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 60%;
+    margin-left: 15px;
+    margin-top: 12px;
+    line-height: 1.2;
+}
+.WebD_Card1 h2{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 60%;
+    margin-left: 15px;
+    margin-top: 8px;
+    
+}

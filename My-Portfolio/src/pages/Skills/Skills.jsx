@@ -88,9 +88,10 @@ export default function Skills() {
             <h1>UI/UX ENGINEER </h1>
             <hr />
             <h2>UI/UX Engineering</h2>
-            <h2>   UI/UX Design</h2>
+            <h2>Mobile/web Front-End</h2>
+            <h2>Wireframing/Prototyping</h2>
             <h2>Creative Imagination</h2>
-            <h2>Graphic Design</h2>
+            
 
           </div>
           <div className='Skills_Bottom_Card2'>
@@ -99,7 +100,7 @@ export default function Skills() {
             <hr />
             <h2>HTML/CSS</h2>
             <h2>JavaScript</h2>
-            <h2>Front-End Frameworks</h2>
+            <h2>Front-End Development</h2>
             <h2>Back-End Development</h2>
           </div>
           <div className='Skills_Bottom_Card3'>
@@ -117,8 +118,9 @@ export default function Skills() {
             <hr />
             <h2>Sketching</h2>
             <h2>Concept Art</h2>
+            <h2>Idea Sketching</h2>
             <h2>Drawing/Painting</h2>
-            <h2>Pencil Art</h2>
+            
           </div>
 
         </div>

@@ -92,17 +92,17 @@
   font-size: 20px;
   font-weight: 540;
 }
-.HomeMyPhoto{
+.HomeMyPhoto img{
   width: 42%;
   margin-left: 53%;
-  margin-top: -395px;
+  margin-top: -375px;
 
 }
 .Home_Buttons{
   margin-left: 9%;
   display: flex;
   gap: 30px;
-  margin-top: -80px;
+  margin-top: -100px;
 }
 .Home_BottomText{
   margin-left: 9%;

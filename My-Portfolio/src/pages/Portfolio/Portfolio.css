@@ -1,0 +1,33 @@
+.Portfolio_Main{
+    border: none;
+    width: 80%; 
+    height: 100vh; 
+    min-height: 720px;  
+    background-color: #E3F5F9; 
+    position: fixed;
+    left: 20%; 
+}
+.Portfolio_TopContent{
+    margin-left: 9%;
+    margin-top: 60px;
+}
+.Portfolio_welcome{
+    font-size: 12px;
+    font-weight: 500;   
+}
+.Portfolio_MyProjects{
+    font-size: 38px;
+    font-weight: 600;
+    color: #000000;
+    opacity: 70%;
+}
+.Portfolio_NavLink{
+    margin-left: 9%;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.Portfolio_WebDevelopment{
+    margin-left: 9%;
+    margin-top: 40px;
+}
