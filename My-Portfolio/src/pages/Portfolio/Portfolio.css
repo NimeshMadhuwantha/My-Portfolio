@@ -1,11 +1,11 @@
 .Portfolio_Main {
-    border: none;
     width: 80%; 
     height: 100vh; 
     min-height: 720px;  
     background-color: #E3F5F9; 
     position: fixed;
     left: 20%; 
+    border: none;
 }
 
 .Portfolio_TopContent {
@@ -29,43 +29,43 @@
     margin-left: 9%;
     display: flex;
     gap: 40px;
-    margin-top: 10px;
+    margin-top: 15px;
     position: relative;
 }
 
 .Portfolio_NavLink h1 {
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
     padding-bottom: 5px; 
+    transition: color 0.3s ease;
+    opacity: 70%;
 }
+
 .Portfolio_NavLink h1::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%; 
     height: 2px;
     width: 0;
-    background-color: #007BFF;
+    background-color: #007BFF; 
     transition: width 0.3s ease, left 0.3s ease;
 }
 
-.Portfolio_ActiveLink::after {
-    width: 100%; /* Full underline width */
-    left: 0;
-}
-
-/* Ensure only one underline moves to the selected tab */
-.Portfolio_NavLink h1:not(.Portfolio_ActiveLink)::after {
-    width: 0;
-    left: 50%; /* Center the starting point for non-active links */
-}
-
 .Portfolio_ActiveLink {
-    border-bottom: 2px solid #007BFF; 
-    color: #007BFF;
+    color: #00A4C9; 
+    border-bottom: 5px solid #00A4C9; 
+}
+
+.Portfolio_ActiveLink::after {
+    width: 100%; 
+    left: 0;
 }
 
 .Portfolio_WebDevelopment {
     margin-left: 9%;
-    margin-top: 40px;
+    margin-top: 25px;
 }
+
