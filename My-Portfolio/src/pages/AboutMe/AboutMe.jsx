@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
+import { Link } from 'react-router-dom';
 import MyPhoto from '../../assetS/MyPhoto.png';
 
 export default function AboutMe() {
@@ -24,12 +25,14 @@ export default function AboutMe() {
              </button>
           </div>
           <div className='About_DownloadCV_Button'>
+            <Link to="/Contact">
              <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
              hover:text-white border-4 border-[#023E57] hover:border-transparent 
              rounded-lg transition-all duration-1000"
              style={{  fontSize: '16px', width: '190px', height: '55px' }}>
              Connect Now 
              </button>
+             </Link>
           </div> 
         </div> 
 

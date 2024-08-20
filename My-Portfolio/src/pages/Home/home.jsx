@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import { Link } from 'react-router-dom';
 import MyPhoto from '../../assetS/MyPhoto.png';
 import ReactIcon from '../../assets/ToolsIcons/ReactIcon.png';
 import javaScriptIcon from '../../assets/ToolsIcons/javaScriptIcon.png';
@@ -46,12 +47,14 @@ function Home() {
         <div className='Home_Buttons'>
            
           <div className='Home_View_Button'>
+           <Link to="/portfolio">
              <button className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
              hover:text-[#023E57] border-4 border-[#023E57] 
              rounded-lg transition-all duration-1000"
              style={{ fontSize: '15px', width: '190px', height: '55px' }}>
              View Portfolio &gt; 
              </button>
+           </Link>
           </div>
           <div className='Home_DownloadCV_Button'>
              <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
