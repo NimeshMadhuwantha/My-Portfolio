@@ -1,3 +1,5 @@
+
+
 .Drawing_Main {
     width: 1000px;
     height: 600px; 
@@ -12,6 +14,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 25PX;
+}
+.Drawing_Cards img{
+    cursor: pointer;
 }
 
 .Drawing_Card1 {
@@ -150,3 +155,13 @@
     opacity: 60%;
     margin-left: 15px;   
 }
+
+
+.Drawing_Card1_Img img:hover,
+.Drawing_Card2_Img img:hover,
+.Drawing_Card3_Img img:hover,
+.Drawing_Card4_Img img:hover {
+    border: 2px solid #52EAFF;
+}
+
+

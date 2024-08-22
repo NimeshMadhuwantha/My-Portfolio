@@ -30,7 +30,8 @@ const UIUXProject = () => {
                 </a>
                 </div>
                 <div className='UIUX_Card1'>
-                <a href="https://www.behance.net/gallery/205631415/My-Portfolio-Web-Site" target="_blank" rel="noopener noreferrer" 
+                <a href="https://dribbble.com/shots/24721553-UIUX-Designing-Mobile-App?utm_source=Clipboard_Shot&utm_campaign=Madhu6114&utm_content=UIUX%20Designing%20Mobile%20App&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Madhu6114&utm_content=UIUX%20Designing%20Mobile%20App&utm_medium=Social_Share" 
+                target="_blank" rel="noopener noreferrer" 
                 style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
                     <img src={ShoppingApp} alt="" />
                     <h1>Shopping Mobile app <br />

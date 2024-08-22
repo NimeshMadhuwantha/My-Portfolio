@@ -40,7 +40,7 @@ export default function SideBar() {
               <li><a href='https://github.com/NimeshMadhuwantha' target='_blank' rel='noopener noreferrer'><img src={githubIcon} alt='GitHub' /></a></li>
               <li><a href='https://www.behance.net/nimeshmadhu' target='_blank' rel='noopener noreferrer'><img src={BehanceIcon} alt='Behance' /></a></li>
               <li><a href='https://fb.com/nimesh.madhuwantha.359?mibextid=zbwkwl' target='_blank' rel='noopener noreferrer'><img src={facebookIcon} alt='Facebook' /></a></li>
-              <li><a href='https://dribbble.com/yourprofile' target='_blank' rel='noopener noreferrer'><img src={dribbleIcon} alt='Dribbble' /></a></li>
+              <li><a href='https://dribbble.com/Madhu6114' target='_blank' rel='noopener noreferrer'><img src={dribbleIcon} alt='Dribbble' /></a></li>
               </nav>
             
           </div>
