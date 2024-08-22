@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import './Contact.css';
@@ -8,16 +8,42 @@ import mailIcon from '../../assets/Icons/mailIcon.png';
 
 export default function Contact() {
   const form = useRef();
+  const [email, setEmail] = useState('');
+  const [reEmail, setReEmail] = useState('');
+  const [formValid, setFormValid] = useState(false);
+
+  const validateForm = () => {
+    // Check if all fields are filled and emails match
+    const isValid =
+      email &&
+      reEmail &&
+      email === reEmail &&
+      form.current['from_name'].value.trim() !== '' &&
+      form.current['message'].value.trim() !== '';
+    
+    setFormValid(isValid);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (!formValid) {
+      Swal.fire({
+        icon: 'warning',
+        title: 'Incomplete Form',
+        text: 'Please make sure all fields are filled out correctly.',
+        confirmButtonText: 'Close',
+        confirmButtonColor: '#023E57',
+      });
+      return;
+    }
+
     emailjs
       .sendForm(
-        'service_31tv3x1', 
-        'template_7j39mln', 
+        'service_31tv3x1',
+        'template_7j39mln',
         form.current,
-        'W2F6tPd0HY0HnR4vL' 
+        'W2F6tPd0HY0HnR4vL'
       )
       .then(
         (result) => {
@@ -85,6 +111,7 @@ export default function Contact() {
                 placeholder-gray-500 pl-7 focus:outline-none focus:ring-2 focus:ring-[#023E57]" 
                 placeholder="Name"
                 style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 0.25)'}}
+                onChange={validateForm}
               />
             </div>
 
@@ -96,6 +123,27 @@ export default function Contact() {
                 placeholder-gray-500 pl-7 focus:outline-none focus:ring-2 focus:ring-[#023E57]" 
                 placeholder="Email"
                 style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 0.25)' }}
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  validateForm();
+                }}
+              />
+            </div> 
+
+            <div className='Contact_Email_Input'>
+              <input 
+                type="email" 
+                name="re_email"
+                className="bg-white text-gray-900 text-sm rounded-lg block w-[480px] p-2.5
+                placeholder-gray-500 pl-7 focus:outline-none focus:ring-2 focus:ring-[#023E57]" 
+                placeholder="Re-enter Email"
+                style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 0.25)' }}
+                value={reEmail}
+                onChange={(e) => {
+                  setReEmail(e.target.value);
+                  validateForm();
+                }}
               />
             </div> 
 
@@ -109,6 +157,7 @@ export default function Contact() {
                   boxShadow: '0 4px 10px rgba(0, 0, 0, 0.25)',
                   resize: 'none'
                 }}
+                onChange={validateForm}
               ></textarea>
 
               <div className='Contact_Send_Button'>
