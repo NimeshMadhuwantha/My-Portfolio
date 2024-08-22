@@ -1,6 +1,6 @@
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 import './Contact.css';
 import callIcon from '../../assets/Icons/callIcon.png';
 import LocationIcon from '../../assets/Icons/LocationIcon.png';
@@ -14,19 +14,31 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        'service_31tv3x1', // Replace with your EmailJS service ID
-        'template_7j39mln', // Replace with your EmailJS template ID
+        'service_31tv3x1', 
+        'template_7j39mln', 
         form.current,
-        'W2F6tPd0HY0HnR4vL' // Replace with your EmailJS public key
+        'W2F6tPd0HY0HnR4vL' 
       )
       .then(
         (result) => {
           console.log('SUCCESS!', result.text);
-          alert('Message sent successfully!');
+          Swal.fire({
+            icon: 'success',
+            title: 'Message Sent',
+            text: 'Thank you for reaching out! I will get back to you soon.',
+            confirmButtonText: 'Close',
+            confirmButtonColor: '#023E57',
+          });
         },
         (error) => {
           console.log('FAILED...', error.text);
-          alert('Failed to send the message. Please try again later.');
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong! Please try again later.',
+            confirmButtonText: 'Close',
+            confirmButtonColor: '#023E57',
+          });
         }
       );
   };
@@ -117,4 +129,3 @@ export default function Contact() {
     </div>
   );
 }
-
