@@ -85,8 +85,6 @@
 
 .pop_up-inner {
     position: relative;
-    padding: 20px;
-    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -100,11 +98,12 @@
 
 .pop_up-close {
     position: absolute;
-    top: 10px;
+    top: 6px;
     right: 10px;
     background-color: transparent;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
     color: #333;
 }

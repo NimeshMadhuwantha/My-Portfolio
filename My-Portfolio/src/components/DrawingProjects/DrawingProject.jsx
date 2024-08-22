@@ -51,6 +51,9 @@ const DrawingProject = ({ openPopup }) => {
               <h1>Drawing</h1>
               <h2>Hand Drawn Pencil Sketch</h2>
             </div>
+            <div className='Drawing_Card2'></div>
+            <div className='Drawing_Card2'></div>
+            <div className='Drawing_Card2'></div>
           </div>
         </div>
       </div>
