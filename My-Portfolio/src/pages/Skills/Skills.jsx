@@ -1,5 +1,6 @@
-import React from 'react'
-import './Skills.css'
+import React from 'react';
+import Swal from 'sweetalert2';
+import './Skills.css';
 import BehanceLogo from '../../assets/SkillPage/BehanceLogo.png';
 import FiverrLogo from '../../assets/SkillPage/FiverrLogo.png';
 import UIUXEngLogo from '../../assets/SkillPage/UIUXEngLogo.png';
@@ -9,6 +10,36 @@ import DrawingLogo2 from '../../assets/SkillPage/DrawingLogo2.png';
 import My_CV from '../../assets/MyCV/My_CV.pdf';
 
 export default function Skills() {
+
+  const handleDownload = (e) => {
+    e.preventDefault();
+    
+    try {
+      const link = document.createElement('a');
+      link.href = My_CV;
+      link.download = 'My_CV.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      Swal.fire({
+        icon: 'success',
+        title: 'Download Started',
+        text: 'Thanks for downloading!',
+        confirmButtonText: 'Close',
+        confirmButtonColor: '#023E57',
+      });
+    } catch (error) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Download Failed',
+        text: 'An error occurred while attempting to download the file. Please try again later.',
+        confirmButtonText: 'Close',
+        confirmButtonColor: '#023E57',
+      });
+    }
+  };
+
   return (
     <div className='Skills_MainContent'>
       <div className='Skills_TopContent'>
@@ -18,13 +49,14 @@ export default function Skills() {
           Full Stack Developer</h1>
         </div>
         <div className='Skills_View_Button'>
-             <button className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
-             hover:text-[#023E57] border-4 border-[#023E57] 
-             rounded-lg transition-all duration-1000"
-             style={{ fontSize: '15px', width: '190px', height: '55px' }}>
-              <a href={My_CV} download='My_CV'>
+             <button
+               className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
+               hover:text-[#023E57] border-4 border-[#023E57] 
+               rounded-lg transition-all duration-1000"
+               style={{ fontSize: '15px', width: '190px', height: '55px' }}
+               onClick={handleDownload}
+             >
              Download CV 
-             </a>
              </button>
         </div>
         <div className='Skills_FiverrExp'>
@@ -87,18 +119,16 @@ export default function Skills() {
         <div className='Skills_Bottom_Cards'>
 
           <div className='Skills_Bottom_Card1'>
-            <img src={UIUXEngLogo} alt="" />
+            <img src={UIUXEngLogo} alt="UI/UX Engineer Logo" />
             <h1>UI/UX ENGINEER </h1>
             <hr />
             <h2>UI/UX Engineering</h2>
             <h2>Mobile/web Front-End</h2>
             <h2>Wireframing/Prototyping</h2>
             <h2>Creative Imagination</h2>
-            
-
           </div>
           <div className='Skills_Bottom_Card2'>
-            <img src={FullStackLogo} alt="" />
+            <img src={FullStackLogo} alt="Full Stack Logo" />
             <h1>FULL STACK DEVELOPMENT </h1>
             <hr />
             <h2>HTML/CSS</h2>
@@ -107,7 +137,7 @@ export default function Skills() {
             <h2>Back-End Development</h2>
           </div>
           <div className='Skills_Bottom_Card3'>
-            <img src={GraphicDesign} alt="" />
+            <img src={GraphicDesign} alt="Graphic Design Logo" />
             <h1>GRAPHIC DESIGN</h1>
             <hr />
             <h2>UI/UX Design</h2>
@@ -116,18 +146,17 @@ export default function Skills() {
             <h2>Illustration</h2>
           </div>
           <div className='Skills_Bottom_Card4'>
-            <img src={DrawingLogo2} alt="" />
-            <h1>ART SKIILS </h1>
+            <img src={DrawingLogo2} alt="Drawing Logo" />
+            <h1>ART SKILLS </h1>
             <hr />
             <h2>Sketching</h2>
             <h2>Concept Art</h2>
             <h2>Idea Sketching</h2>
             <h2>Drawing/Painting</h2>
-            
           </div>
 
         </div>
 
     </div>
-  )
+  );
 }
