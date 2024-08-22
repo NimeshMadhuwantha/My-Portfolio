@@ -10,7 +10,7 @@ import PhotoShopIcon from '../../assets/ToolsIcons/PhotoShopIcon.png';
 import BlenderIcon from '../../assets/ToolsIcons/BlenderIcon.png';
 import SketchIcon from '../../assets/ToolsIcons/SketchIcon.png';
 import BrushIcon from '../../assets/ToolsIcons/BrushIcon.png';
-
+import My_CV from '../../assets/MyCV/My_CV.pdf';
 
 
 
@@ -57,11 +57,11 @@ function Home() {
            </Link>
           </div>
           <div className='Home_DownloadCV_Button'>
-             <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
+             <button  className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
              hover:text-white border-4 border-[#023E57] hover:border-transparent 
              rounded-lg transition-all duration-1000"
-             style={{  fontSize: '16px', width: '190px', height: '55px' }}>
-             Download CV  
+             style={{  fontSize: '16px', width: '190px', height: '55px' }}> <a href={My_CV} download='My_CV'>
+             Download CV  </a>
              </button>
           </div> 
         </div> 

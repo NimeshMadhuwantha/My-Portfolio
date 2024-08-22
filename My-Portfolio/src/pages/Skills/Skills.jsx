@@ -6,6 +6,7 @@ import UIUXEngLogo from '../../assets/SkillPage/UIUXEngLogo.png';
 import FullStackLogo from '../../assets/SkillPage/FullStackLogo.png';
 import GraphicDesign from '../../assets/SkillPage/GraphicDesign.png';
 import DrawingLogo2 from '../../assets/SkillPage/DrawingLogo2.png';
+import My_CV from '../../assets/MyCV/My_CV.pdf';
 
 export default function Skills() {
   return (
@@ -21,7 +22,9 @@ export default function Skills() {
              hover:text-[#023E57] border-4 border-[#023E57] 
              rounded-lg transition-all duration-1000"
              style={{ fontSize: '15px', width: '190px', height: '55px' }}>
+              <a href={My_CV} download='My_CV'>
              Download CV 
+             </a>
              </button>
         </div>
         <div className='Skills_FiverrExp'>
