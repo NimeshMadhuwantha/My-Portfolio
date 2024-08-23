@@ -164,4 +164,18 @@
     border: 2px solid #52EAFF;
 }
 
+/* Add Animation */
 
+.Drawing_Main{
+  
+    font-size: 28px;
+    font-weight: 460;
+    opacity: 10%;
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }

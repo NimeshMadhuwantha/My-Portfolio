@@ -49,3 +49,19 @@
     margin-top: 8px;
     
 }
+
+/* Add Animation */
+
+.UIUX_Main{
+  
+    font-size: 28px;
+    font-weight: 460;
+    opacity: 10%;
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }

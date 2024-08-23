@@ -111,3 +111,38 @@
 .pop_up-close:hover {
     color: #f82323;
 }
+
+
+/* Add Animation */
+
+.Portfolio_TopContent
+{
+    animation: slowFadeInDown 0.8s ease-in-out;
+ }
+ @keyframes slowFadeInDown {
+    0% {
+      opacity: 5%;
+      transform: translateY(-5px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  .Portfolio_NavLink{
+  
+        font-size: 28px;
+        font-weight: 460;
+        opacity: 0;
+        animation: fadeIn 1.3s ease-in-out forwards;
+      }
+      
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+      
+ .Portfolio_WebDevelopment{
+    animation: slowFadeIn 0.8s ease-in-out;
+ }
