@@ -311,3 +311,51 @@
     font-weight: 500;
     color: #000000;
 }
+
+
+
+
+/* Keyframe Animations */
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slowFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  /* Apply Animation */
+  
+  .Skills_TopContent h1,
+  .Skills_View_Button button,
+  .Skills_FiverrExp h1,
+  .Skills_BehanceLogo,
+  .Skills_FiverrLogo,
+  .Skills_Exp_Card1,
+  .Skills_Exp_Card2,
+  .Skills_Exp_Card3,
+  .Skills_MySkills h1 {
+    animation: slowFadeIn 0.9s ease-in-out;
+  }
+
+  .Skills_Bottom_Cards{
+    animation: slowFadeIn 0.6s ease-in-out;
+  }
+
+
+  
