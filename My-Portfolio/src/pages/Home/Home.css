@@ -189,3 +189,48 @@
   opacity: 95%;
 }
   
+/* Add Animation */
+
+@keyframes zoomOutFadeIn2 {
+  0% {
+    opacity: 5%;
+    transform: scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.HomeTopText h1,
+.HomeTopDescription,
+.Home_Buttons,
+.ChangingText,
+.HomeMyPhoto{
+  animation: zoomOutFadeIn2 0.8s ease-in-out;
+}
+
+.Home_BottomText,
+.Home_Buttom_Cards{
+  animation: slowFadeIn 0.9s ease-in-out;
+
+}
+
+.HomeTopText h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingEffect 3.5s steps(40, end) forwards;
+}
+
+@keyframes typingEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+
+
+

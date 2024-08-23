@@ -13,7 +13,7 @@ export default function Contact() {
   const [formValid, setFormValid] = useState(false);
 
   const validateForm = () => {
-    // Check if all fields are filled and emails match
+
     const isValid =
       email &&
       reEmail &&

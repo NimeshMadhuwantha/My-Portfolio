@@ -129,3 +129,34 @@
     color: #023E57;
     font-weight: 900;
 }
+
+
+
+/* Add Animations */
+
+
+.About_MeText,
+.About_AboutMePara,
+.About_MyCards,
+.About_Education,
+.About_Bottom_Edu{
+    animation: slowFadeIn 0.9s ease-in-out;
+
+}
+
+@keyframes zoomOutFadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(1.01);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .About_TopContent,
+  .About_Buttons,
+  .About_Myphoto {
+    animation: zoomOutFadeIn 0.8s ease-in-out;
+  }

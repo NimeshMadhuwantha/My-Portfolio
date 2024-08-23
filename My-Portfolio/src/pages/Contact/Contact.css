@@ -114,3 +114,24 @@
 .Contact_Send_Button{
     margin-top: 40px;
 }
+
+ /* Apply Animation */
+
+.Contact_TopContent{
+    animation: slowFadeInDown 0.9s ease-in-out;
+ }
+ @keyframes slowFadeInDown {
+    0% {
+      opacity: 5%;
+      transform: translateY(-5px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+
+.Contact_MiddleContent{
+    animation: slowFadeIn 0.9s ease-in-out;
+}
+
