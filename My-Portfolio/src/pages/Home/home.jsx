@@ -56,7 +56,7 @@ function Home() {
             <span className='FSDtop'>UI/UX Engineer</span>
           </div>
           <div className='HomeTopDescription'>
-            <h2>
+            <h2 className='HomeTopDesH2'>
               <span className='HomeWelcomeText'>Welcome to my portfolio! </span><br />
               I am a UI/UX engineer, UI/UX designer, full-stack developer, and artist. 
               My work is a fusion of technical precision and creative imagination. 
@@ -73,22 +73,43 @@ function Home() {
         <div className='Home_Buttons'>
           <div className='Home_View_Button'>
             <Link to="/portfolio">
-              <button className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
-                hover:text-[#023E57] border-4 border-[#023E57] 
-                rounded-lg transition-all duration-1000"
-                style={{ fontSize: '15px', width: '190px', height: '55px' }}>
-                View Portfolio &gt; 
-              </button>
+            <button className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
+           hover:text-[#023E57] border-4 border-[#023E57] 
+            rounded-lg transition-all duration-1000 
+            xl:text-[1.1vw] xl:w-[13vw] xl:h-[7.5vh] 
+            lg:text-[1vw] lg:w-[14vw] lg:h-[6.5vh]
+            md:text-[1.2vw] md:w-[14vw] md:h-[6.5vh] 
+            sm:text-[1.4vw] sm:w-[16vw] sm:h-[6vh]"
+            style={{
+            padding: '0.5em 1em',
+            fontSize: window.innerWidth <= 480 ? '3vw' : '2vw',
+            width: window.innerWidth <= 480 ? '20vw' : '25vw',
+            height: window.innerWidth <= 480 ? '7vh' : '6.2vh',
+            }}>
+            View Portfolio &gt; 
+            </button>
+
+
             </Link>
           </div>
           <div className='Home_DownloadCV_Button'>
-            <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
-              hover:text-white border-4 border-[#023E57] hover:border-transparent 
-              rounded-lg transition-all duration-1000"
-              style={{ fontSize: '16px', width: '190px', height: '55px' }}
-              onClick={handleDownload}>
-              Download CV  
-            </button>
+          <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
+          hover:text-white border-4 border-[#023E57] 
+          rounded-lg transition-all duration-1000 
+          xl:text-[1.1vw] xl:w-[13vw] xl:h-[7.5vh] 
+          lg:text-[1.1vw] lg:w-[14vw] lg:h-[6.5vh]
+          md:text-[1.3vw] md:w-[14vw] md:h-[6.5vh] 
+          sm:text-[1.6vw] sm:w-[16vw] sm:h-[6vh]"
+          style={{
+          padding: '0.5em 1em',
+          fontSize: window.innerWidth <= 480 ? '3vw' : '2.2vw',
+          width: window.innerWidth <= 480 ? '20vw' : '25vw',
+          height: window.innerWidth <= 480 ? '7vh' : '6.2vh',
+          }}
+          onClick={handleDownload}>
+             Download CV  
+          </button>
+
           </div> 
         </div> 
 
