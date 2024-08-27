@@ -370,7 +370,7 @@
   }
   .Home_Buttons{
     margin-left: 6%;
-    margin-top: -90px;
+    margin-top: -110px;
   }
   .Home_BottomText{
     margin-left: 6%;
@@ -428,12 +428,12 @@
   }
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1140px){
   .HomeMainContent { 
     background-color: #c28b4d; 
-      
+    width: 78%; 
+    left: 22%;    
   }
-
   .HomeTopText h1{
     font-size: 23px;
   }

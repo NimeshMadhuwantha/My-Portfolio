@@ -116,3 +116,140 @@ body {
     
 }
 
+/* responsive the side bar */
+@media (max-width: 1500px){
+    .SB_mylogo{
+        padding-top: 25px;
+    }
+    .Side_BarListItems{
+        margin-top: 48px;
+
+    }
+    .Social_MediaListItems{
+        margin-top: 65px;
+    }
+    .Fotter_Name{
+        margin-top: 27px;
+    
+    }
+}
+@media (max-width: 1440px){
+    
+    .Side_BarListItems{
+        margin-top: 46px;
+
+    }
+    .Social_MediaListItems{
+        margin-top: 60px;
+    }
+    .Fotter_Name{
+        margin-top: 25px;
+    
+    }
+}
+@media (max-width: 1350px){
+    
+    .Side_BarListItems{
+        margin-top: 44px;
+
+    }
+    .Social_MediaListItems{
+        margin-top: 58px;
+    }
+    .Fotter_Name{
+        margin-top: 22px;
+    
+    }
+}
+@media (max-width: 1300px){
+    
+    .Side_BarListItems{
+        margin-top: 44px;
+        line-height: 1.3;
+
+    }
+    .Side_BarMylogo{
+        height: 125px;
+    }
+    .My_nameSB{
+        font-size: 17px;
+        margin-top: 9px;
+    }
+    .Social_MediaListItems{
+        margin-top: 45px;
+    }
+    .Fotter_Name{
+        margin-top: 12px;    
+    }
+}
+@media (max-width: 1280px){
+    
+    .Side_BarListItems{
+        margin-top: 45px;
+        line-height: 1.3;
+
+    }
+    .Side_BarMylogo{
+        height: 120px;
+    }
+    .Side_BarListItems h2{
+        font-size: 13px;   
+    }
+    .My_nameSB{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .Social_MediaListItems{
+        margin-top: 45px;
+    }
+    .Fotter_Name{
+        margin-top: 10px;    
+    }
+    .Social_MediaListItems img{
+        height: 28px;
+    }
+    .Social_MediaListItems{
+        gap: 12px;
+    }
+    .Fotter_Name h2{
+    
+        font-size: 13px;   
+    }
+}
+@media (max-width: 1140px){
+    .side_BarContent{
+        width: 22%; 
+    }
+    
+    .Side_BarListItems{
+        margin-top: 45px;
+        line-height: 1.3;
+
+    }
+    .Side_BarMylogo{
+        height: 120px;
+    }
+    .Side_BarListItems h2{
+        font-size: 13px;   
+    }
+    .My_nameSB{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .Social_MediaListItems{
+        margin-top: 45px;
+    }
+    .Fotter_Name{
+        margin-top: 10px;    
+    }
+    .Social_MediaListItems img{
+        height: 28px;
+    }
+    .Social_MediaListItems{
+        gap: 12px;
+    }
+    .Fotter_Name h2{
+    
+        font-size: 13px;   
+    }
+}
