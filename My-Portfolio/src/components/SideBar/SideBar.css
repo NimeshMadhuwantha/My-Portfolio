@@ -126,14 +126,20 @@ body {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 70%;
+    width: 40%;
     height: 100%;
-    background-color: #E9FBFF;
+    background-color: rgba(2, 62, 87, 15%); 
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    transition: left 0.3s ease-in-out;
+    transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
     padding: 20px;
+    backdrop-filter: blur(60px); 
+    
 }
+.sidebar2 .Side_BarListItems h2{
+    font-size: 15px;
+}
+
 
 .sidebar2.open {
     left: 0;
@@ -153,7 +159,13 @@ body {
 .closeIcon img {
     height: 30px;
     width: auto;
+    transition: filter 0.2s ease;
 }
+
+.closeIcon img:hover {
+    filter: drop-shadow(0 0 0.3px black);
+}
+
 
 /* Menu Icon for Sidebar 2 */
 .menuIcon {
@@ -168,7 +180,13 @@ body {
 .menuIcon img {
     height: 30px;
     width: auto;
+    transition: filter 0.2s ease;
 }
+
+.menuIcon img:hover {
+    filter: drop-shadow(0 0 0.3px black);
+}
+
 
 /* Responsive Styles */
 
