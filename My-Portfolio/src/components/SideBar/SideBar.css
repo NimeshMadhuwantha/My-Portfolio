@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
     font-family: 'Poppins', sans-serif;
 }
-.side_BarContent{
+
+/* Original Sidebar */
+.side_BarMain {
+    display: block;
+}
+
+.side_BarContent {
     z-index: 1;
     border: none;
     width: 20%;
@@ -12,44 +19,43 @@ body {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    
 }
 
-.Side_BarMylogo{
+.Side_BarMylogo {
     height: 130px;
     width: auto;
 }
-.Side_BarMylogo:hover{
+
+.Side_BarMylogo:hover {
     transform: scale(1.04);
     transition: 1s;
     cursor: pointer;
 }
-.SB_mylogo{
-   
+
+.SB_mylogo {
     padding-top: 30px;
 }
 
-.My_nameSB{
-    
+.My_nameSB {
     font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
-
 }
-.My_Occupation{
 
+.My_Occupation {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
 }
-.My_Occupation h5{
+
+.My_Occupation h5 {
     font-size: 14px;
     font-weight: 5;
     opacity: 0.8;
 }
 
-.Side_BarListItems{
+.Side_BarListItems {
     margin-top: 55px;
     gap: 30px;
     list-style-type: none;
@@ -58,198 +64,254 @@ body {
     align-items: center;
     margin-left: -21%;
     line-height: 1.5;
-    
 }
-.Side_BarListItems a{
+
+.Side_BarListItems a {
     text-decoration: none;
     color: black;
     opacity: 90%;
 }
-.Side_BarListItems h2{
+
+.Side_BarListItems h2 {
     font-size: 15px;
     font-weight: 450;
-    
 }
 
-.Side_BarListItems h2:hover{
+.Side_BarListItems h2:hover {
     transform: scale(1.1);
     transition: 0.7s;
     font-weight: 450;
     color: #00A4C9;
     cursor: pointer;
-
 }
-.Social_MediaListItems img{
+
+.Social_MediaListItems img {
     height: 30px;
     width: auto;
     background-color: white; 
     transition: background-color 0.3s ease;
     border-radius: 5px;
-
 }
-.Social_MediaListItems img:hover{
+
+.Social_MediaListItems img:hover {
     transform: scale(1.1);
     transition: 0.7s;
     background-color: #00A4C9;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
-.Social_MediaListItems{
+.Social_MediaListItems {
     margin-top: 70px;
     list-style-type: none;
     display: flex;
     gap: 15px;
 }
-.Fotter_Name{
-    margin-top: 30px;
 
+.Fotter_Name {
+    margin-top: 30px;
 }
-.Fotter_Name h2{
-    
+
+.Fotter_Name h2 {
     font-size: 14px;
     font-weight: 250;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-/* responsive the side bar */
-@media (max-width: 1500px){
-    .SB_mylogo{
+/* Sidebar 2 - Responsive Sidebar */
+.sidebar2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    height: 100%;
+    background-color: #E9FBFF;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    transition: left 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.sidebar2.open {
+    left: 0;
+}
+
+.sidebar2Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.closeIcon {
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.closeIcon img {
+    height: 30px;
+    width: auto;
+}
+
+/* Menu Icon for Sidebar 2 */
+.menuIcon {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.menuIcon img {
+    height: 30px;
+    width: auto;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .side_BarMain {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .sidebar2 {
+        display: block;
+    }
+}
+
+/* Responsive Styling for Original Sidebar */
+@media (max-width: 1500px) {
+    .SB_mylogo {
         padding-top: 25px;
     }
-    .Side_BarListItems{
+    .Side_BarListItems {
         margin-top: 48px;
-
     }
-    .Social_MediaListItems{
+    .Social_MediaListItems {
         margin-top: 65px;
     }
-    .Fotter_Name{
+    .Fotter_Name {
         margin-top: 27px;
-    
     }
 }
-@media (max-width: 1440px){
-    
-    .Side_BarListItems{
-        margin-top: 46px;
 
+@media (max-width: 1440px) {
+    .Side_BarListItems {
+        margin-top: 46px;
     }
-    .Social_MediaListItems{
+    .Social_MediaListItems {
         margin-top: 60px;
     }
-    .Fotter_Name{
+    .Fotter_Name {
         margin-top: 25px;
-    
     }
 }
-@media (max-width: 1350px){
-    
-    .Side_BarListItems{
-        margin-top: 44px;
 
+@media (max-width: 1350px) {
+    .Side_BarListItems {
+        margin-top: 44px;
     }
-    .Social_MediaListItems{
+    .Social_MediaListItems {
         margin-top: 58px;
     }
-    .Fotter_Name{
+    .Fotter_Name {
         margin-top: 22px;
-    
     }
 }
-@media (max-width: 1300px){
-    
-    .Side_BarListItems{
+
+@media (max-width: 1300px) {
+    .Side_BarListItems {
         margin-top: 44px;
         line-height: 1.3;
-
     }
-    .Side_BarMylogo{
+    .Side_BarMylogo {
         height: 125px;
     }
-    .My_nameSB{
+    .My_nameSB {
         font-size: 17px;
         margin-top: 9px;
     }
-    .Social_MediaListItems{
+    .Social_MediaListItems {
         margin-top: 45px;
     }
-    .Fotter_Name{
+    .Fotter_Name {
         margin-top: 12px;    
     }
 }
-@media (max-width: 1280px){
-    
-    .Side_BarListItems{
+
+@media (max-width: 1280px) {
+    .Side_BarListItems {
         margin-top: 45px;
         line-height: 1.3;
-
     }
-    .Side_BarMylogo{
+    .Side_BarMylogo {
         height: 120px;
     }
-    .Side_BarListItems h2{
+    .Side_BarListItems h2 {
         font-size: 13px;   
     }
-    .My_nameSB{
+    .My_nameSB {
         font-size: 16px;
         margin-top: 10px;
     }
-    .Social_MediaListItems{
+    .Social_MediaListItems {
         margin-top: 45px;
     }
-    .Fotter_Name{
+    .Fotter_Name {
         margin-top: 10px;    
     }
-    .Social_MediaListItems img{
+    .Social_MediaListItems img {
         height: 28px;
     }
-    .Social_MediaListItems{
+    .Social_MediaListItems {
         gap: 12px;
     }
-    .Fotter_Name h2{
-    
+    .Fotter_Name h2 {
         font-size: 13px;   
     }
 }
-@media (max-width: 1140px){
-    .side_BarContent{
+
+@media (max-width: 1140px) {
+    .side_BarContent {
         width: 22%; 
     }
-    
-    .Side_BarListItems{
+    .Side_BarListItems {
         margin-top: 45px;
-        line-height: 1.3;
-
+        line-height: 1.2;
     }
-    .Side_BarMylogo{
-        height: 120px;
+    .Side_BarMylogo {
+        height: 118px;
     }
-    .Side_BarListItems h2{
-        font-size: 13px;   
+    .Side_BarListItems h2 {
+        font-size: 12px;   
     }
-    .My_nameSB{
-        font-size: 16px;
+    .My_nameSB {
+        font-size: 15px;
         margin-top: 10px;
     }
-    .Social_MediaListItems{
+    .My_Occupation h5 {
+        font-size: 12px;
+    }
+    .Social_MediaListItems {
         margin-top: 45px;
     }
-    .Fotter_Name{
+    .Fotter_Name {
         margin-top: 10px;    
     }
-    .Social_MediaListItems img{
-        height: 28px;
+    .Social_MediaListItems img {
+        height: 26px;
     }
-    .Social_MediaListItems{
-        gap: 12px;
+    .Social_MediaListItems {
+        gap: 10px;
     }
-    .Fotter_Name h2{
-    
-        font-size: 13px;   
+    .Fotter_Name h2 {
+        font-size: 12px;   
     }
 }
