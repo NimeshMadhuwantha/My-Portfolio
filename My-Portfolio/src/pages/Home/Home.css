@@ -11,6 +11,9 @@
     /* margin-top: -50px;  */
       
   }
+  .Responsive-mobile-Text{
+    display: none;
+  }
   .HomeTopText{
     margin-left: 9%;
     padding-top: 50px;
@@ -40,20 +43,13 @@
     height: 100%;
     width: max-content;
     border: none;  
-    animation: spin_words 6s infinite;
+    animation: spin_words 10s infinite;
   }
   .ChangingText {
     overflow: hidden;
     height: 70px; 
     opacity: 78%;
     margin-top: -5px;
-}
-
-.FSDtop {
-    height: 100%;
-    width: max-content;
-    border: none;
-    animation: spin_words 10s infinite;
 }
 
 @keyframes spin_words {
@@ -235,7 +231,7 @@
 
 @media (max-width: 1500px){
   .HomeMainContent {
-    background-color: #b3194a; 
+   
     height: 100vh;   
   }
   .Home_BottomText{  
@@ -249,12 +245,8 @@
   }
   
 }
-
 @media (max-width: 1440px){
-  .HomeMainContent { 
-    background-color: #acc24d; 
-      
-  }
+
   .HomeTopText{
     margin-left: 8%;
     padding-top: 50px;
@@ -343,12 +335,7 @@
     font-size: 11px;
   }
 }
-
 @media (max-width: 1280px){
-  .HomeMainContent { 
-    background-color: #4dc286; 
-      
-  }
   .HomeTopText{
     margin-left: 6%;
     padding-top: 50px;
@@ -437,10 +424,8 @@
     font-size: 10px;
   }
 }
-
 @media (max-width: 1140px){
   .HomeMainContent { 
-    background-color: #c28b4d; 
     width: 78%; 
     margin-left: 22%;    
   }
@@ -530,54 +515,59 @@
 }
 @media (max-width: 1024px){
   .HomeMainContent { 
-    background-color: #594dc2; 
-    width: 78%; 
-    margin-left: 22%;  
+    width: 100%; 
+    margin-left: 0;  
+  }
+  .HomeTopText{
+    margin-left: 70px;
   }
   .HomeTopText h1{
-    font-size: 23px;
+    font-size: 28px;
+    margin-top: 20px;
   }
   .NimeshTopText{
     margin-left: 12px;
-    font-size: 31px;
+    font-size: 36px;
     margin-top: 5px;
   }
   .ChangingText{
-    margin-top: 5px;
+    margin-top: 2px;
   }
   .ChangingText .FSDtop{
-    font-size: 32px; 
+    font-size: 38px; 
   }
   .HomeTopDescription{
     width: 52%;
-   
+    margin-top: 10px;
   }
   .HomeTopDescription h2{
-    font-size: 12px;
+    font-size: 16px;
   
   }
   .HomeWelcomeText{
-    font-size: 16px;
+    font-size: 20px;
   }
   .HomeMyPhoto img{
-    margin-top: -250px;
+    width: 45%;
+    margin-top: -350px;
   }
   .Home_Buttons{
-    margin-left: 6%;
-    margin-top: -20px;
+    margin-left: 70px;
+    margin-top: -60px;
   }
   .Home_BottomText{
-    margin-left: 6%;
-    margin-top: 20px;
+    margin-left: 70px;
+    margin-top: 5px;
   }
   .Home_BottomText span{
-    font-size: 44px;
+    font-size: 50px;
   }
   .Home_BottomText h1{
-    font-size: 26px;
+    font-size: 30px;
   }
   .Home_Buttom_Cards{
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-left: 70px;
   }
 
   .Home_Buttom_Card1,
@@ -594,8 +584,8 @@
     height: 30px;
   }
   .Home_Buttom_Card1 h1{
-    margin-top: 15px;
-    font-size: 9px;
+    margin-top: 18px;
+    font-size: 12px;
   }
   
   .Home_Card2_Icons{
@@ -606,8 +596,8 @@
     height: 30px;
   }
   .Home_Buttom_Card2 h1{
-    margin-top: 15px;
-    font-size: 9px;
+    margin-top: 18px;
+    font-size: 12px;
   }
   
   .Home_Card3_Icons{
@@ -618,7 +608,477 @@
     height: 30px;
   }
   .Home_Buttom_Card3 h1{
-    margin-top: 15px;
-    font-size: 9px;
+    margin-top: 18px;
+    font-size: 12px;
   }
 }
+@media (max-width: 940px){
+  .HomeMainContent {
+    width: 100%; 
+    margin-left: 0; 
+    height: 100%; 
+  }
+  .HomeTopText{
+    margin-left: 90px;
+  }
+  .HomeTopText h1{
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .NimeshTopText{
+    margin-left: 12px;
+    font-size: 36px;
+    margin-top: 5px;
+  }
+  .ChangingText{
+    margin-top: 2px;
+  }
+  .ChangingText .FSDtop{
+    font-size: 36px; 
+  }
+  .HomeTopDescription{
+    width: 52%;
+    margin-top: 10px;
+  }
+  .HomeTopDescription h2{
+    font-size: 18px;
+  
+  }
+  .HomeWelcomeText{
+    font-size: 22px;
+  }
+  .HomeMyPhoto img{
+    width: 45%;
+    margin-top: -450px;
+  }
+  .Home_Buttons{
+    margin-left: 90px;
+    margin-top: 115px;
+  }
+  .Home_BottomText{
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .Home_BottomText span{
+    font-size: 50px;
+  }
+  .Home_BottomText h1{
+    font-size: 30px;
+  }
+  .Home_Buttom_Cards{
+    margin-top: 15px;
+    margin-left: 90px;
+    gap: 6%;
+    padding-bottom: 30px;
+  }
+
+  .Home_Buttom_Card1,
+  .Home_Buttom_Card2,
+  .Home_Buttom_Card3{
+    height: 110px;
+  }
+ 
+  .Home_Card1_Icons{
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .Home_Card1_Icons img{
+    height: 30px;
+  }
+  .Home_Buttom_Card1 h1{
+    margin-top: 18px;
+    font-size: 11px;
+  }
+  
+  .Home_Card2_Icons{
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .Home_Card2_Icons img{
+    height: 30px;
+  }
+  .Home_Buttom_Card2 h1{
+    margin-top: 18px;
+    font-size: 11px;
+  }
+  
+  .Home_Card3_Icons{
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .Home_Card3_Icons img{
+    height: 30px;
+  }
+  .Home_Buttom_Card3 h1{
+    margin-top: 18px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .HomeMainContent {
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding-top: 20px;
+    height: 100%;
+  }
+
+  .HomeMyPhoto {
+    margin-top: -880px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 50%;
+  }
+
+  .HomeMyPhoto img {
+    width: 70%; 
+    margin-top: 0; 
+    
+  }
+
+  .HomeTopText {
+    width: 80%; 
+    margin-top: 360px; 
+  }
+
+  .HomeTopText h1 {
+    font-size: 28px;
+    margin-left: -6%;
+  }
+
+  .NimeshTopText {
+    font-size: 36px;
+    margin-top: 5px;
+  }
+  .ChangingText{
+    display: none;
+  }
+  .Responsive-mobile-Text{
+    display: block;
+    margin-right: 14%;
+  }
+  .Responsive-mobile-Text h2{
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 70%;
+  }
+
+
+  .HomeTopDescription {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: -3%;
+  }
+
+  .HomeTopDescription h2 {
+    font-size: 20px;
+  }
+
+  .HomeWelcomeText {
+    font-size: 26px;
+  }
+
+  .Home_Buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 420px;
+    width: 100%;
+    margin-right: 12%;
+  }
+
+  .Home_BottomText {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 12%;
+  }
+
+  .Home_BottomText span {
+    font-size: 50px;
+  }
+
+  .Home_BottomText h1 {
+    font-size: 30px;
+  }
+
+  .Home_Buttom_Cards {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 12%;
+  }
+
+  .Home_Buttom_Card1,
+  .Home_Buttom_Card2,
+  .Home_Buttom_Card3 {
+    height: 130px;
+    width: 25%; 
+  }
+
+  .Home_Card1_Icons,
+  .Home_Card2_Icons,
+  .Home_Card3_Icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+  }
+
+  .Home_Card1_Icons img,
+  .Home_Card2_Icons img,
+  .Home_Card3_Icons img {
+    height: 30px;
+  }
+
+  .Home_Buttom_Card1 h1,
+  .Home_Buttom_Card2 h1,
+  .Home_Buttom_Card3 h1 {
+    margin-top: 18px;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+}
+@media (max-width: 680px) {
+  .HomeMyPhoto {
+    margin-top: -880px;
+  }
+  .HomeTopText {
+    margin-top: 360px; 
+  }
+  .NimeshTopText {
+    font-size: 36px;
+    margin-top: 5px;
+  } 
+  .Responsive-mobile-Text h2{
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 70%;
+  }
+  .HomeTopDescription {
+    margin-top: 20px;
+  }
+  .Home_Buttons {
+    margin-top: 490px;
+  }
+  .Home_BottomText {
+    margin-top: 20px;
+  }
+  .Home_Buttom_Cards {
+    margin-top: 20px;
+  }
+  .Home_Buttom_Card1,
+  .Home_Buttom_Card2,
+  .Home_Buttom_Card3 {
+    height: 100px;
+    width: 25%; 
+  }
+  .Home_Card1_Icons,
+  .Home_Card2_Icons,
+  .Home_Card3_Icons {
+    margin-top: 20px;
+  }
+  .Home_Buttom_Card1 h1,
+  .Home_Buttom_Card2 h1,
+  .Home_Buttom_Card3 h1 {
+    margin-top: 18px;
+    font-size: 9px;
+    
+  } 
+}
+@media (max-width: 570px) {
+  .HomeMyPhoto {
+    margin-top: -850px;
+    margin-left: -2%;
+  }
+  .HomeTopText {
+    margin-top: 240px;
+    margin-right: 7%;
+  }
+  .NimeshTopText {
+    font-size: 36px;
+    margin-top: 5px;
+    margin-right: 7%;
+  } 
+  .Responsive-mobile-Text h2{
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 70%;
+    margin-right: 7%;
+  }
+  .HomeTopDescription {
+    margin-top: 20px;
+  }
+  .Home_Buttons {
+    margin-top: 530px;
+    margin-right: 20%;
+  }
+  .Home_BottomText {
+    margin-top: 20px;
+    margin-right: 20%;
+  }
+  .Home_Buttom_Cards {
+    margin-top: 20px;
+    margin-right: 20%;
+  }
+  .Home_Buttom_Card1,
+  .Home_Buttom_Card2,
+  .Home_Buttom_Card3 {
+    height: 100px;
+    width: 25%; 
+  }
+  .Home_Card1_Icons,
+  .Home_Card2_Icons,
+  .Home_Card3_Icons {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .Home_Card1_Icons img,
+  .Home_Card2_Icons img,
+  .Home_Card3_Icons img {
+    height: 20px;
+  }
+  .Home_Buttom_Card1 h1,
+  .Home_Buttom_Card2 h1,
+  .Home_Buttom_Card3 h1 {
+    margin-top: 18px;
+    font-size: 9px;
+    
+  } 
+}
+@media (max-width: 420px) {
+  .HomeMyPhoto {
+    margin-top: -980px;
+    margin-left: -2%;
+  }
+  .HomeTopText {
+    margin-top: 200px;
+    margin-right: 7%;
+  }
+  .NimeshTopText {
+    font-size: 36px;
+    margin-top: 5px;
+    margin-right: 7%;
+  } 
+  .Responsive-mobile-Text h2{
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 70%;
+    margin-right: 7%;
+  }
+  .HomeTopDescription {
+    margin-top: 20px;
+  }
+  .Home_Buttons {
+    margin-top: 750px;
+    margin-right: 20%;
+  }
+  .Home_BottomText {
+    margin-top: 20px;
+    margin-right: 20%;
+  }
+  .Home_Buttom_Cards {
+    margin-top: 20px;
+    margin-right: 20%;
+  }
+  .Home_Buttom_Card1,
+  .Home_Buttom_Card2,
+  .Home_Buttom_Card3 {
+    height: 100px;
+    width: 25%; 
+  }
+  .Home_Card1_Icons,
+  .Home_Card2_Icons,
+  .Home_Card3_Icons {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .Home_Card1_Icons img,
+  .Home_Card2_Icons img,
+  .Home_Card3_Icons img {
+    height: 20px;
+  }
+  .Home_Buttom_Card1 h1,
+  .Home_Buttom_Card2 h1,
+  .Home_Buttom_Card3 h1 {
+    margin-top: 18px;
+    font-size: 9px;
+    
+  } 
+}
+@media (max-width: 320px) {
+  .HomeMyPhoto {
+    margin-top: -650px;
+    margin-left: -1%;
+  }
+  .HomeTopText {
+    margin-top: 200px;
+    margin-right: 9%;
+  }
+  .NimeshTopText {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 7%;
+  } 
+  .Responsive-mobile-Text h2{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 70%;
+    margin-right: 7%;
+  }
+  .HomeTopDescription {
+    margin-top: 20px;
+  }
+  .HomeTopDescription h2{
+    font-size: 14px;
+  }
+  .Home_Buttons {
+    margin-top: 500px;
+    margin-right: 22%;
+  }
+  .Home_BottomText {
+    margin-top: 20px;
+    margin-right: 22%;
+  }
+  .Home_Buttom_Cards {
+    margin-top: 20px;
+    margin-right: 22%;
+  }
+  .Home_Buttom_Card1,
+  .Home_Buttom_Card2,
+  .Home_Buttom_Card3 {
+    height: 60px;
+    width: 25%; 
+  }
+  .Home_Card1_Icons,
+  .Home_Card2_Icons,
+  .Home_Card3_Icons {
+    margin-top: 10px;
+    gap: 5px;
+  }
+  .Home_Card1_Icons img,
+  .Home_Card2_Icons img,
+  .Home_Card3_Icons img {
+    height: 15px;
+  }
+  .Home_Buttom_Card1 h1,
+  .Home_Buttom_Card2 h1,
+  .Home_Buttom_Card3 h1 {
+    margin-top: 8px;
+    font-size: 7px;
+    
+  } 
+}
+
+

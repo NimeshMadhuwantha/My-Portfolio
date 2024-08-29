@@ -47,8 +47,17 @@ function Home() {
   return (
     <div>
       <div className='HomeMainContent'>
+        
         <div className='HomeTopText'>
           <h1>Hi, I'm <span className='NimeshTopText'> Nimesh !</span></h1>
+          
+          
+          <div className='Responsive-mobile-Text'>
+          <h2>UI/UX Engineer</h2>
+          <h2>Full Stack Developer</h2>
+          </div>
+          
+          
           <div className='ChangingText'>
             <span className='FSDtop'>Full Stack Developer</span>
             <span className='FSDtop'>UI/UX Engineer</span>
@@ -77,9 +86,9 @@ function Home() {
            hover:text-[#023E57] border-4 border-[#023E57] 
             rounded-lg transition-all duration-1000 
             xl:text-[1.1vw] xl:w-[13vw] xl:h-[7.5vh] 
-            lg:text-[1vw] lg:w-[14vw] lg:h-[6.5vh]
-            md:text-[1.2vw] md:w-[14vw] md:h-[6.5vh] 
-            sm:text-[1.4vw] sm:w-[16vw] sm:h-[6vh]"
+            lg:text-[1vw] lg:w-[14vw] lg:h-[7.5vh]
+            md:text-[1.2vw] md:w-[16vw] md:h-[6vh] 
+            sm:text-[1.4vw] sm:w-[20vw] sm:h-[5vh]"
             style={{
             padding: '0.5em 1em',
             fontSize: window.innerWidth <= 480 ? '3vw' : '2vw',
@@ -97,9 +106,9 @@ function Home() {
           hover:text-white border-4 border-[#023E57] 
           rounded-lg transition-all duration-1000 
           xl:text-[1.1vw] xl:w-[13vw] xl:h-[7.5vh] 
-          lg:text-[1.1vw] lg:w-[14vw] lg:h-[6.5vh]
-          md:text-[1.3vw] md:w-[14vw] md:h-[6.5vh] 
-          sm:text-[1.6vw] sm:w-[16vw] sm:h-[6vh]"
+          lg:text-[1.1vw] lg:w-[14vw] lg:h-[7.5vh]
+          md:text-[1.3vw] md:w-[16vw] md:h-[6vh] 
+          sm:text-[1.6vw] sm:w-[20vw] sm:h-[5vh]"
           style={{
           padding: '0.5em 1em',
           fontSize: window.innerWidth <= 480 ? '3vw' : '2.2vw',
