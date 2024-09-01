@@ -69,12 +69,14 @@ export default function Skills() {
 
         <div className='Skills_SiteLogo'>
           <div className='Skills_BehanceLogo'>
-             <img src={BehanceLogo} alt="" />
-             <h1>Behance</h1>
+             <a href="https://www.behance.net/nimeshmadhu"><img src={BehanceLogo} alt="" /></a>
+             <a href="https://www.behance.net/nimeshmadhu"><h1>Behance</h1></a>
           </div>
           <div className='Skills_FiverrLogo'>
-            <img src={FiverrLogo} alt="" />
-            <h1>Fiverr</h1>
+            <a href="https://www.fiverr.com/sldesign2?&ref_ctx_id=8bd3df3cdba840bbb82b358348ed92f0&imp_id=6ecc6109-773c-4e83-9507-8cd16cb13245">
+            <img src={FiverrLogo} alt="" /></a>
+            <a href="https://www.fiverr.com/sldesign2?&ref_ctx_id=8bd3df3cdba840bbb82b358348ed92f0&imp_id=6ecc6109-773c-4e83-9507-8cd16cb13245">
+            <h1>Fiverr</h1></a>
           </div>
         </div>
         </div>

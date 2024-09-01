@@ -165,7 +165,9 @@ body {
 .closeIcon img:hover {
     filter: drop-shadow(0 0 0.3px black);
 }
-
+.sidebar2 .Social_MediaListItems img{
+    height: 18px;
+}
 
 /* Menu Icon for Sidebar 2 */
 .menuIcon {
