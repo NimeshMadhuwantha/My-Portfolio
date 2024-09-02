@@ -787,7 +787,7 @@
   .Home_Buttons {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 7%;
     margin-top: 365px;
     width: 100%;
     margin-right: 12%;
@@ -1067,7 +1067,7 @@
   .Home_Card2_Icons,
   .Home_Card3_Icons {
     margin-top: 20px;
-    gap: 10px;
+    gap: 9px;
   }
   .Home_Card1_Icons img,
   .Home_Card2_Icons img,
@@ -1078,7 +1078,7 @@
   .Home_Buttom_Card2 h1,
   .Home_Buttom_Card3 h1 {
     margin-top: 18px;
-    font-size: 9px;
+    font-size: 8px;
     
   } 
 }
@@ -1117,6 +1117,7 @@
   .Home_Buttons {
     margin-top: 350px;
     margin-right: 22%;
+    gap: 6%;
   }
   .Home_BottomText {
     margin-top: 20px;
@@ -1136,7 +1137,7 @@
   .Home_Card2_Icons,
   .Home_Card3_Icons {
     margin-top: 10px;
-    gap: 5px;
+    gap: 4px;
   }
   .Home_Card1_Icons img,
   .Home_Card2_Icons img,
@@ -1147,7 +1148,7 @@
   .Home_Buttom_Card2 h1,
   .Home_Buttom_Card3 h1 {
     margin-top: 8px;
-    font-size: 7px;
+    font-size: 6px;
     
   } 
 }
@@ -1181,6 +1182,7 @@
   .Home_Buttons {
     margin-top: 470px;
     margin-right: 22%;
+    gap: 5%;
   }
   .Home_BottomText {
     margin-top: 20px;
@@ -1200,7 +1202,7 @@
   .Home_Card2_Icons,
   .Home_Card3_Icons {
     margin-top: 10px;
-    gap: 5px;
+    gap: 4px;
   }
   .Home_Card1_Icons img,
   .Home_Card2_Icons img,
@@ -1211,7 +1213,7 @@
   .Home_Buttom_Card2 h1,
   .Home_Buttom_Card3 h1 {
     margin-top: 8px;
-    font-size: 7px;
+    font-size: 6px;
     
   } 
 }

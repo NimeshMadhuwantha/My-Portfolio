@@ -4,14 +4,16 @@
     height: 100vh; 
     min-height: 720px;  
     background-color: #E9FBFF; 
-    position: fixed;
+    margin-top: -60px;
     margin-left: 20%; 
 }
 .About_TopContent{
     margin-left: 9%;
     margin-top: 60px;
+    padding-top: 60px;
 }
 .About_Nice_to_meet_Text{
+    
     font-size: 12px;
     font-weight: 500;   
 }
@@ -32,16 +34,16 @@
     margin-top: 25PX;
 }
 .About_Myphoto{
-    margin-left: 762px;
+    margin-left: 68%;
     margin-top: -245px;
 }
 .About_Myphoto img{
-    height: 360px;
+   width: 81%;
 }
 
 .About_MeText{
     margin-left: 9%;
-    margin-top: -85px;
+    margin-top: -55px;
 }
 .About_MeText span{
     font-size: 50px;
@@ -55,7 +57,7 @@
 }
 .About_AboutMePara{
     margin-left: 9%;
-    width: 950px;
+    width: 80%;
     margin-top: 10px;
 }
 .About_AboutMePara{
@@ -65,9 +67,10 @@
 }
 .About_MyCards{
     display: flex;
-    gap: 36px;
+    gap: 5%;
     margin-left: 9%;
     margin-top: 15px;
+    width: 80%;
 }
 .About_NameCard{
     height: 80px;
@@ -115,7 +118,7 @@
 }
 .About_Bottom_Edu{
     height: 120px;
-    width: 950px;
+    width: 80%;
     background-color: #CCDCE2;
     margin-left: 9%;
 }
@@ -140,7 +143,7 @@
 .About_MyCards,
 .About_Education,
 .About_Bottom_Edu{
-    animation: slowFadeIn 0.9s ease-in-out;
+    animation: slowFadeIn 1s ease-in-out;
 
 }
 
@@ -158,5 +161,597 @@
   .About_TopContent,
   .About_Buttons,
   .About_Myphoto {
-    animation: zoomOutFadeIn 0.8s ease-in-out;
+    animation: slowFadeIn 0.8s ease-in-out;
+  }
+
+  @media (max-width: 1500px){
+    .About_Nice_to_meet_Text{
+        margin-top: -5px;
+    }
+    .About_Buttons{
+        gap: 30px;
+        margin-top: 20PX;
+    }
+    .About_Myphoto{
+        margin-left: 68%;
+        margin-top: -235px;
+    }
+    .About_MeText{
+        margin-top: -35px;
+    }
+    .About_MeText h1{
+        font-size: 26px;
+    }
+    .About_MeText span{
+        font-size: 36px;
+    }
+    .About_AboutMePara{
+        margin-top: 10px;
+    }
+    .About_MyCards{
+        margin-top: 15px;
+    }
+    .About_Education h1{
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    .About_Education span{
+        font-size: 36px;
+    }
+
+  }
+  @media (max-width: 1440px){
+    .About_TopContent,
+    .About_Buttons,
+    .About_MeText,
+    .About_AboutMePara,
+    .About_MyCards,
+    .About_Education,
+    .About_Bottom_Edu{
+        margin-left: 8%;
+    }
+    .About_Nice_to_meet_Text{
+        margin-top: -5px;
+    }
+    .About_Buttons{
+        gap: 30px;
+        margin-top: 20PX;
+    }
+    .About_Myphoto{
+        margin-left: 66%;
+        margin-top: -235px;
+    }
+    .About_AboutMePara h1{
+        font-size: 13px;
+    }
+    .About_MeText{
+        margin-top: -35px;
+    }
+    .About_MeText h1{
+        font-size: 26px;
+    }
+    .About_MeText span{
+        font-size: 36px;
+    }
+    .About_Bottom_Edu h1{
+        font-size: 12px;
+    }
+  }
+  @media (max-width: 1280px){
+    .About_Nice_to_meet_Text{
+        margin-top: -5px;
+    }
+    .About_TopContent,
+    .About_Buttons,
+    .About_MeText,
+    .About_AboutMePara,
+    .About_MyCards,
+    .About_Education,
+    .About_Bottom_Edu{
+        margin-left: 6%;
+    }
+    .About_Buttons{
+        gap: 30px;
+        margin-top: 20PX;
+    }
+    .About_Myphoto{
+        margin-left: 63%;
+        margin-top: -225px;
+    }
+    .About_MeText{
+        margin-top: -45px;
+    }
+    .About_MeText h1{
+        font-size: 25px;
+    }
+    .About_MeText span{
+        font-size: 35px;
+    }
+    .About_AboutMePara{
+        margin-top: 10px;
+    }
+    .About_AboutMePara h1{
+        font-size: 12px;
+    }
+    .About_MyCards{
+        margin-top: 15px;
+    }
+    .About_NameCard,
+    .About_BDCard,
+    .About_NationalCard,
+    .About_LanguageCard{
+        height: 70px;
+    }
+    .About_NameCard h1,
+    .About_BDCard h1,
+    .About_NationalCard h1,
+    .About_LanguageCard h1{
+        font-size: 11px;
+    }
+   
+    .About_Education h1{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .About_Education span{
+        font-size: 35px;
+    }
+    .About_Bottom_Edu{
+        height: 110px;
+    }
+  }
+  @media (max-width: 1140px){
+    .About_MainContent{
+        width: 78%; 
+        margin-left: 22%;
+    }
+    .About_Nice_to_meet_Text{
+        margin-top: -5px;
+    }
+    .About_Buttons{
+        gap: 30px;
+        margin-top: 20PX;
+    }
+    .About_Myphoto{
+        margin-left: 61%;
+        margin-top: -225px;
+    }
+    .About_Myphoto img{
+       width: 80%;
+    }
+    .About_MeText{
+        margin-top: -20px;
+    }
+    .About_MeText h1{
+        font-size: 25px;
+    }
+    .About_MeText span{
+        font-size: 35px;
+    }
+    .About_AboutMePara{
+        margin-top: 10px;
+    }
+    .About_AboutMePara h1{
+        font-size: 12px;
+    }
+    .About_MyCards{
+        margin-top: 15px;
+    }
+    .About_NameCard,
+    .About_BDCard,
+    .About_NationalCard,
+    .About_LanguageCard{
+        height: 70px;
+    }
+    .About_NameCard h1,
+    .About_BDCard h1,
+    .About_NationalCard h1,
+    .About_LanguageCard h1{
+        font-size: 11px;
+        margin-top: 22px;
+        margin-left: 10px;
+    }
+    .About_NameCard h1{
+        font-size: 10px;
+    }
+    .About_Education h1{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .About_Education span{
+        font-size: 35px;
+    }
+  }
+  @media (max-width: 1024px){
+    .About_MainContent{
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .About_TopContent,
+    .About_Buttons,
+    .About_MeText,
+    .About_AboutMePara,
+    .About_MyCards,
+    .About_Education,
+    .About_Bottom_Edu{
+        margin-left: 70px;
+    }
+    .About_Nice_to_meet_Text{
+        margin-top: -5px;
+    }
+    .About_Buttons{
+        gap: 30px;
+        margin-top: 20PX;
+    }
+    .About_Myphoto{
+        margin-left: 68%;
+        margin-top: -225px;
+    }
+    .About_MeText{
+        margin-top: 0px;
+    }
+    .About_MeText h1{
+        font-size: 25px;
+    }
+    .About_MeText span{
+        font-size: 35px;
+    }
+    .About_AboutMePara{
+        margin-top: 10px;
+    }
+    .About_AboutMePara h1{
+        font-size: 12px;
+    }
+    .About_MyCards{
+        margin-top: 15px;
+    }
+    .About_NameCard,
+    .About_BDCard,
+    .About_NationalCard,
+    .About_LanguageCard{
+        height: 70px;
+    }
+    .About_NameCard h1,
+    .About_BDCard h1,
+    .About_NationalCard h1,
+    .About_LanguageCard h1{
+        font-size: 11px;
+    }
+   
+    .About_Education h1{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .About_Education span{
+        font-size: 35px;
+    }
+  }
+  @media (max-width: 940px){
+    .About_MainContent{
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .About_TopContent,
+    .About_Buttons,
+    .About_MeText,
+    .About_AboutMePara,
+    .About_MyCards,
+    .About_Education,
+    .About_Bottom_Edu{
+        margin-left: 70px;
+    }
+    .About_Nice_to_meet_Text{
+        margin-top: -5px;
+    }
+    .About_TopContent {
+        margin-left: 10%;
+      }
+    .About_Buttons{
+        gap: 30px;
+        margin-top: 20PX;
+    }
+    .About_Myphoto{
+        margin-left: 64%;
+        margin-top: -205px;
+    }
+    .About_Myphoto img{
+        width: 95%;
+    }
+    .About_MeText{
+        margin-top: -50px;
+    }
+    .About_MeText h1{
+        font-size: 25px;
+    }
+    .About_MeText span{
+        font-size: 35px;
+    }
+    .About_AboutMePara{
+        margin-top: 10px;
+        width: 80%;
+    }
+    .About_AboutMePara h1{
+        font-size: 12px;
+    }
+    .About_MyCards{
+        margin-top: 15px;
+        width: 84%;
+    }
+    .About_NameCard,
+    .About_BDCard,
+    .About_NationalCard,
+    .About_LanguageCard{
+        height: 65px;
+    }
+    .About_NameCard h1,
+    .About_BDCard h1,
+    .About_NationalCard h1,
+    .About_LanguageCard h1{
+        font-size: 11px;
+    }
+    .About_NameCard h1{
+        font-size: 10px;
+    }
+   
+    .About_Education h1{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .About_Education span{
+        font-size: 35px;
+    }
+    .About_Bottom_Edu{
+        width: 84%;
+    }
+  }
+  @media (max-width: 768px) {
+    .About_MainContent {
+      width: 100%;
+      margin-top: -40px;
+      height: 100%;
+      
+    }
+  
+    .About_TopContent {
+      margin-top: 40px;
+      text-align: center;
+      margin-right: 3%;
+    }
+    .About_Nice_to_meet_Text {
+      font-size: 10px;
+      font-weight: 500;
+      margin-top: 350px;
+    }
+  
+    .About_MyName {
+      font-size: 22px;
+      font-weight: 600;
+      color: #045B60;
+    }
+  
+    .About_MyOccupation {
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 60%;
+    }
+  
+    .About_Buttons {
+      display: flex;
+      gap: 20px;
+      /* margin-top: 20px; */
+      margin-left: 29%;
+    }
+  
+    .About_Myphoto {
+      margin-left: 25%;
+      margin-right: auto;
+      margin-top: -550px;
+      width: 60%;
+    }
+  
+    .About_MeText {
+      margin-left: 5%;
+      margin-top: 180px;
+      text-align: center;
+    }
+  
+    .About_MeText span {
+      font-size: 40px;
+      color: #A2C3C6;
+      padding-right: 5px;
+    }
+  
+    .About_MeText h1 {
+      font-size: 24px;
+      font-weight: 600;
+      opacity: 70%;
+    }
+  
+    .About_AboutMePara {
+      margin-left: 10%;
+      width: 80%;
+      margin-top: 10px;
+      font-size: 13px;
+      text-align: center;
+    }
+  
+    .About_MyCards {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 10%;
+      margin-top: 15px;
+      width: 80%;
+      text-align: center;
+    }
+  
+    .About_NameCard,
+    .About_BDCard,
+    .About_NationalCard,
+    .About_LanguageCard {
+      width: 100%;
+      height: 70px;
+      background-color: #CCDCE2;
+    }
+  
+    .About_NameCard h1,
+    .About_BDCard h1,
+    .About_NationalCard h1,
+    .About_LanguageCard h1 {
+      font-size: 11px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .About_Education {
+      margin-left: 5%;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .About_Education span {
+      font-size: 40px;
+      color: #A2C3C6;
+      padding-right: 5px;
+    }
+  
+    .About_Education h1 {
+      font-size: 24px;
+      font-weight: 600;
+      opacity: 70%;
+    }
+  
+    .About_Bottom_Edu {
+      height: 130px;
+      width: 80%;
+      background-color: #CCDCE2;
+      margin-left: 10%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .About_Bottom_Edu h1 {
+      font-size: 12px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 20px;
+      font-weight: 500;
+    }
+  }
+  @media (max-width: 680px){
+      .About_Myphoto {
+        margin-left: 25%;
+        margin-top: -500px;
+        width: 60%;
+      }
+      .About_Nice_to_meet_Text {
+        margin-top: 300px;
+      }
+      .About_MeText {
+        margin-left: 5%;
+        margin-top: 180px;
+      }
+  }
+  @media (max-width: 570px){
+      .About_Myphoto {
+        margin-left: 23%;
+        margin-top: -450px;
+        width: 60%;
+      }
+      .About_Nice_to_meet_Text {
+        margin-top: 280px;
+      }
+      .About_TopContent{
+        margin-left: 6%;
+      }
+      .About_MeText {
+        margin-left: 5%;
+        margin-top: 160px;
+      }
+      .About_Buttons {
+        margin-left: 25%;
+      }
+  }
+  @media (max-width: 513px){
+      .About_Myphoto {
+        margin-left: 25%;
+        margin-top: -410px;
+        width: 60%;
+      }
+      .About_Nice_to_meet_Text {
+        margin-top: 250px;
+      }
+      .About_MeText {
+        margin-left: 5%;
+        margin-top: 160px;
+      }
+      .About_Buttons {
+       align-items: center;
+       padding-right: 20%;
+       margin-left: 25%;
+      }
+  }
+  @media (max-width: 464px){
+      .About_Myphoto {
+        margin-left: 20%;
+        margin-top: -410px;
+        width: 68%;
+      }
+      .About_Nice_to_meet_Text {
+        margin-top: 250px;
+      }
+      .About_MeText {
+        margin-left: 5%;
+        margin-top: 160px;
+      }
+      .About_Buttons {
+       align-items: center;
+       padding-right: 16%;
+       margin-left: 20%;
+      }
+      .About_Bottom_Edu{
+        height: 180px;
+      }
+  }
+  @media (max-width: 400px){
+      .About_Myphoto {
+        margin-left: 20%;
+        margin-top: -390px;
+        width: 68%;
+      }
+      .About_Nice_to_meet_Text {
+        margin-top: 220px;
+      }
+      .About_MeText {
+        margin-left: 5%;
+        margin-top: 160px;
+      }
+      .About_Buttons {
+       align-items: center;
+       padding-right: 16%;
+       margin-left: 14%;
+      }
+  }
+  @media (max-width: 350px){
+      .About_Myphoto {
+        margin-left: 20%;
+        margin-top: -370px;
+        width: 68%;
+      }
+      .About_Nice_to_meet_Text {
+        margin-top: 200px;
+      }
+      .About_MeText {
+        margin-left: 5%;
+        margin-top: 170px;
+      }
+      .About_Buttons {
+       align-items: center;
+       padding-right: 16%;
+       margin-left: 10%;
+      }
+      .About_Bottom_Edu{
+        height: 200px;
+      }
+
   }

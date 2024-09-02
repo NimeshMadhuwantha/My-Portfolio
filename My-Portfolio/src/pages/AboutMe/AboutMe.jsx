@@ -18,12 +18,28 @@ export default function AboutMe() {
       link.click();
       document.body.removeChild(link);
 
+      const isSmallScreen = window.innerWidth < 640;
+      const width = isSmallScreen ? '320px' : '480px';
+      const padding = isSmallScreen ? '0.8rem' : '1rem';
+      const fontSize = isSmallScreen ? '1.5rem' : '1.5rem';
+      const contentFontSize = isSmallScreen ? '0.8rem' : '1rem';
+  
       Swal.fire({
         icon: 'success',
         title: 'Download Started',
         text: 'Thanks for downloading!',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: width, 
+        padding: padding, 
+        
+        didOpen: () => {
+          if (isSmallScreen) {
+            document.querySelector('.swal2-title').style.fontSize = fontSize;
+            document.querySelector('.swal2-content').style.fontSize = contentFontSize;
+            document.querySelector('.swal2-popup').style.height = 'auto'; 
+          }
+        },
       });
     } catch (error) {
       Swal.fire({
@@ -32,6 +48,7 @@ export default function AboutMe() {
         text: 'An error occurred while attempting to download the file. Please try again later.',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: window.innerWidth < 640 ? '320px' : '480px',
       });
     }
   };
@@ -48,22 +65,45 @@ export default function AboutMe() {
 
         <div className='About_Buttons'>
           <div className='About_View_Button'>
-            <button
-              className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
-             hover:text-[#023E57] border-4 border-[#023E57] 
-             rounded-lg transition-all duration-1000"
-              style={{ fontSize: '15px', width: '190px', height: '55px' }}
-              onClick={handleDownload}
-            >
-              Download CV 
-            </button>
+          <button
+          className="
+          bg-transparent hover:bg-[#023E57] text-[#023E57] hover:text-white font-semibold 
+          border-4 border-[#023E57] hover:border-transparent 
+          rounded-lg transition-all duration-1000
+            xl:w-[230px] xl:h-[55px] 
+            lg:w-[195px] lg:h-[45px] 
+            md:w-[170px] md:h-[40px] 
+            sm:w-[155px] sm:h-[40px] 
+            w-[125px] h-[34px]   
+            xl:text-[1.1rem] 
+            lg:text-[1rem]  
+            md:text-[0.8rem] 
+            sm:text-[0.7rem] 
+            text-[0.5rem]  
+          "
+          onClick={handleDownload}>
+          Download CV  
+          </button>
           </div>
           <div className='About_DownloadCV_Button'>
             <Link to="/Contact">
-              <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
-               hover:text-white border-4 border-[#023E57] hover:border-transparent 
-               rounded-lg transition-all duration-1000"
-                style={{ fontSize: '16px', width: '190px', height: '55px' }}>
+            <button
+            className="
+            bg-[#023E57] hover:bg-transparent text-white font-semibold 
+            hover:text-[#023E57] border-4 border-[#023E57] 
+            rounded-lg transition-all duration-1000
+            xl:w-[230px] xl:h-[55px] 
+            lg:w-[195px] lg:h-[45px] 
+            md:w-[170px] md:h-[40px] 
+            sm:w-[155px] sm:h-[40px] 
+            w-[125px] h-[34px]   
+            xl:text-[1.1rem] 
+            lg:text-[1rem]  
+            md:text-[0.8rem] 
+            sm:text-[0.7rem] 
+            text-[0.5rem]  
+            "
+           >
                 Connect Now 
               </button>
             </Link>

@@ -22,12 +22,28 @@ export default function Skills() {
       link.click();
       document.body.removeChild(link);
 
+      const isSmallScreen = window.innerWidth < 640;
+      const width = isSmallScreen ? '320px' : '480px';
+      const padding = isSmallScreen ? '0.8rem' : '1rem';
+      const fontSize = isSmallScreen ? '1.5rem' : '1.5rem';
+      const contentFontSize = isSmallScreen ? '0.8rem' : '1rem';
+  
       Swal.fire({
         icon: 'success',
         title: 'Download Started',
         text: 'Thanks for downloading!',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: width, 
+        padding: padding, 
+        
+        didOpen: () => {
+          if (isSmallScreen) {
+            document.querySelector('.swal2-title').style.fontSize = fontSize;
+            document.querySelector('.swal2-content').style.fontSize = contentFontSize;
+            document.querySelector('.swal2-popup').style.height = 'auto'; 
+          }
+        },
       });
     } catch (error) {
       Swal.fire({
@@ -36,6 +52,7 @@ export default function Skills() {
         text: 'An error occurred while attempting to download the file. Please try again later.',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: window.innerWidth < 640 ? '320px' : '480px',
       });
     }
   };

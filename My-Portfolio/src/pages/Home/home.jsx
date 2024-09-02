@@ -26,12 +26,28 @@ function Home() {
       link.click();
       document.body.removeChild(link);
 
+      const isSmallScreen = window.innerWidth < 640;
+      const width = isSmallScreen ? '320px' : '480px';
+      const padding = isSmallScreen ? '0.8rem' : '1rem';
+      const fontSize = isSmallScreen ? '1.5rem' : '1.5rem';
+      const contentFontSize = isSmallScreen ? '0.8rem' : '1rem';
+  
       Swal.fire({
         icon: 'success',
         title: 'Download Started',
         text: 'Thanks for downloading!',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: width, 
+        padding: padding, 
+        
+        didOpen: () => {
+          if (isSmallScreen) {
+            document.querySelector('.swal2-title').style.fontSize = fontSize;
+            document.querySelector('.swal2-content').style.fontSize = contentFontSize;
+            document.querySelector('.swal2-popup').style.height = 'auto'; 
+          }
+        },
       });
     } catch (error) {
       Swal.fire({
@@ -40,6 +56,7 @@ function Home() {
         text: 'An error occurred while attempting to download the file. Please try again later.',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: window.innerWidth < 640 ? '320px' : '480px',
       });
     }
   };
@@ -82,43 +99,48 @@ function Home() {
         <div className='Home_Buttons'>
           <div className='Home_View_Button'>
             <Link to="/portfolio">
-            <button className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
-           hover:text-[#023E57] border-4 border-[#023E57] 
-            rounded-lg transition-all duration-1000 
-            xl:text-[1.1vw] xl:w-[13vw] xl:h-[7.5vh] 
-            lg:text-[1vw] lg:w-[14vw] lg:h-[7.5vh]
-            md:text-[1.2vw] md:w-[16vw] md:h-[6vh] 
-            sm:text-[1.4vw] sm:w-[20vw] sm:h-[5vh]"
-            style={{
-            padding: '0.5em 1em',
-            fontSize: window.innerWidth <= 480 ? '3vw' : '2vw',
-            width: window.innerWidth <= 480 ? '20vw' : '25vw',
-            height: window.innerWidth <= 480 ? '7vh' : '6.2vh',
-            }}>
-            View Portfolio &gt; 
-            </button>
-
+            <button
+            className="
+            bg-[#023E57] hover:bg-transparent text-white font-semibold 
+            hover:text-[#023E57] border-4 border-[#023E57] 
+            rounded-lg transition-all duration-1000
+            xl:w-[230px] xl:h-[55px] 
+            lg:w-[195px] lg:h-[45px] 
+            md:w-[170px] md:h-[40px] 
+            sm:w-[155px] sm:h-[40px] 
+            w-[125px] h-[34px]   
+            xl:text-[1.1rem] 
+            lg:text-[1rem]  
+            md:text-[0.8rem] 
+            sm:text-[0.7rem] 
+            text-[0.5rem]  
+            "
+           >
+           View Portfolio &gt;
+           </button>
 
             </Link>
           </div>
           <div className='Home_DownloadCV_Button'>
-          <button className="bg-transparent hover:bg-[#023E57] text-[#023E57] font-semibold 
-          hover:text-white border-4 border-[#023E57] 
-          rounded-lg transition-all duration-1000 
-          xl:text-[1.1vw] xl:w-[13vw] xl:h-[7.5vh] 
-          lg:text-[1.1vw] lg:w-[14vw] lg:h-[7.5vh]
-          md:text-[1.3vw] md:w-[16vw] md:h-[6vh] 
-          sm:text-[1.6vw] sm:w-[20vw] sm:h-[5vh]"
-          style={{
-          padding: '0.5em 1em',
-          fontSize: window.innerWidth <= 480 ? '3vw' : '2.2vw',
-          width: window.innerWidth <= 480 ? '20vw' : '25vw',
-          height: window.innerWidth <= 480 ? '7vh' : '6.2vh',
-          }}
+          <button
+          className="
+          bg-transparent hover:bg-[#023E57] text-[#023E57] hover:text-white font-semibold 
+          border-4 border-[#023E57] hover:border-transparent 
+          rounded-lg transition-all duration-1000
+            xl:w-[230px] xl:h-[55px] 
+            lg:w-[195px] lg:h-[45px] 
+            md:w-[170px] md:h-[40px] 
+            sm:w-[155px] sm:h-[40px] 
+            w-[125px] h-[34px]   
+            xl:text-[1.1rem] 
+            lg:text-[1rem]  
+            md:text-[0.8rem] 
+            sm:text-[0.7rem] 
+            text-[0.5rem]  
+          "
           onClick={handleDownload}>
-             Download CV  
+          Download CV  
           </button>
-
           </div> 
         </div> 
 

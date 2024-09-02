@@ -26,7 +26,7 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     if (!formValid) {
       Swal.fire({
         icon: 'warning',
@@ -34,10 +34,19 @@ export default function Contact() {
         text: 'Please make sure all fields are filled out correctly.',
         confirmButtonText: 'Close',
         confirmButtonColor: '#023E57',
+        width: window.innerWidth < 640 ? '320px' : '480px',
+        padding: window.innerWidth < 640 ? '0.8rem' : '1rem',
+        didOpen: () => {
+          if (window.innerWidth < 640) {
+            document.querySelector('.swal2-title').style.fontSize = '1.5rem';
+            document.querySelector('.swal2-content').style.fontSize = '0.8rem';
+            document.querySelector('.swal2-popup').style.height = 'auto';
+          }
+        },
       });
       return;
     }
-
+  
     emailjs
       .sendForm(
         'service_31tv3x1',
@@ -54,6 +63,15 @@ export default function Contact() {
             text: 'Thank you for reaching out! I will get back to you soon.',
             confirmButtonText: 'Close',
             confirmButtonColor: '#023E57',
+            width: window.innerWidth < 640 ? '320px' : '480px',
+            padding: window.innerWidth < 640 ? '0.8rem' : '1rem',
+            didOpen: () => {
+              if (window.innerWidth < 640) {
+                document.querySelector('.swal2-title').style.fontSize = '1.5rem';
+                document.querySelector('.swal2-content').style.fontSize = '0.8rem';
+                document.querySelector('.swal2-popup').style.height = 'auto';
+              }
+            },
           });
         },
         (error) => {
@@ -64,10 +82,20 @@ export default function Contact() {
             text: 'Something went wrong! Please try again later.',
             confirmButtonText: 'Close',
             confirmButtonColor: '#023E57',
+            width: window.innerWidth < 640 ? '320px' : '480px',
+            padding: window.innerWidth < 640 ? '0.8rem' : '1rem',
+            didOpen: () => {
+              if (window.innerWidth < 640) {
+                document.querySelector('.swal2-title').style.fontSize = '1.5rem';
+                document.querySelector('.swal2-content').style.fontSize = '0.8rem';
+                document.querySelector('.swal2-popup').style.height = 'auto';
+              }
+            },
           });
         }
       );
   };
+  
 
   return (
     <div className='Contact_Main'>

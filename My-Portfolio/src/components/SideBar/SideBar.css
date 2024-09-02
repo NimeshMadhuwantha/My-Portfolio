@@ -205,6 +205,38 @@ body {
         display: block;
     }
 }
+@media (max-width: 680px) {
+    .sidebar2{
+        width: 45%;
+    }
+    .side_BarMain {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .sidebar2 {
+        display: block;
+    }
+}
+@media (max-width: 420px) {
+    .sidebar2{
+        width: 50%;
+    }
+    .side_BarMain {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .sidebar2 {
+        display: block;
+    }
+}
 
 /* Responsive Styling for Original Sidebar */
 @media (max-width: 1500px) {
