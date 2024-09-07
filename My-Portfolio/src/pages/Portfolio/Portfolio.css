@@ -146,3 +146,36 @@
  .Portfolio_WebDevelopment{
     animation: slowFadeIn 0.8s ease-in-out;
  }
+
+/* responsive */
+
+ @media (max-width: 1140px){
+    .Portfolio_Main{
+        width: 78%; 
+        margin-left: 2%;
+    }
+    .Portfolio_MyProjects {
+        font-size: 32px;
+    }
+    .Portfolio_NavLink h1 {
+        font-size: 16px;
+    }
+ }
+ @media (max-width: 1024px){
+    .Portfolio_Main{
+        width: 100%; 
+        margin-left: -20%;
+    }
+ }
+ @media (max-width: 680px){
+    .Portfolio_MyProjects,
+    .Portfolio_welcome {
+        text-align: center;
+        margin-left: -10%;
+    }
+    .Portfolio_NavLink{
+        align-items: center;
+        justify-content: center;
+        margin-left: -2%;
+    }
+ }

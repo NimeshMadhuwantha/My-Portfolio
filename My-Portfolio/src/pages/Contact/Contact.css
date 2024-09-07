@@ -5,6 +5,7 @@
     min-height: 720px;  
     background-color: #E9FBFF; 
     margin-left: 20%;
+    /* height: 100%; */
     
 }
 .Contact_TopContent{
@@ -324,7 +325,9 @@
 @media (max-width: 1024px){
   .Contact_Main{ 
     width: 100%; 
-    margin-left: 0; 
+    margin-left: 0;
+    height: 100vh;
+    min-height: 920px; 
   } 
   .Contact_MiddleContent{
     align-items: center;
@@ -385,6 +388,10 @@
 
 }
 @media (max-width: 680px){
+  .Contact_Main{ 
+    height: 100vh;
+    min-height: 1000px; 
+  } 
   .Contact_TopContent{
     text-align: center;
   }
@@ -409,9 +416,19 @@
   .Contact_MiddleContent{
     padding-right: 5px;
   }
+  .Contact_TopContent,
+  .Contact_MiddleContent{
+    margin-left: 8%;
+  }
 }
-@media (max-width: 464px){
+@media (max-width: 564px){
   .Contact_MiddleContent{
     padding-right: 5px;
+  }
+  .Contact_MiddleContent{
+    margin-left:9%;
+  }
+  .Contact_TopContent{
+    margin-left: 8%;
   }
 }

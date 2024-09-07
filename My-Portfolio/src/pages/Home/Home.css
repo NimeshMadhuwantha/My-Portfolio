@@ -976,6 +976,10 @@
     margin-top: 5px;
     margin-right: 7%;
   } 
+  .HomeMyPhoto img{
+    width: 80%;
+    margin-top: -30px;
+  }
   .Responsive-mobile-Text h2{
     font-size: 22px;
     font-weight: 500;

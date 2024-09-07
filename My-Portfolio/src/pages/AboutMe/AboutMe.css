@@ -429,7 +429,7 @@
   @media (max-width: 940px){
     .About_MainContent{
         width: 100%; 
-        margin-left: 0; 
+        margin-left: 0;
     }
     .About_TopContent,
     .About_Buttons,
@@ -509,6 +509,7 @@
       width: 100%;
       margin-top: -40px;
       height: 100%;
+      min-height: 132npm run build0px;
       
     }
   
@@ -639,6 +640,7 @@
     }
   }
   @media (max-width: 680px){
+    
       .About_Myphoto {
         margin-left: 25%;
         margin-top: -500px;
@@ -673,6 +675,10 @@
       }
   }
   @media (max-width: 513px){
+    .About_MainContent{
+        min-height: 1300px;
+  
+    }
       .About_Myphoto {
         margin-left: 25%;
         margin-top: -410px;
@@ -692,6 +698,10 @@
       }
   }
   @media (max-width: 464px){
+    .About_MainContent{
+        min-height: 1300px;
+  
+    }
       .About_Myphoto {
         margin-left: 20%;
         margin-top: -410px;
