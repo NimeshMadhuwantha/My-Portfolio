@@ -1,15 +1,15 @@
 .Contact_Main{
     border: none;
-    width: 80%; 
-    height: 100vh; 
+    width: 80%;
+    height: 100vh;
     min-height: 720px;  
     background-color: #E9FBFF; 
-    position: fixed;
-    left: 20%;
+    margin-left: 20%;
+    
 }
 .Contact_TopContent{
     margin-left: 9%;
-    margin-top: 60px;
+    padding-top: 30px;
 }
 .Contact_LetsConnect_Text{
     font-size: 14px;
@@ -25,7 +25,7 @@
 .Contact_DesPara{
     margin-top: 8px;
     font-size: 15px;
-    width: 950px;
+    width: 88%;
     opacity: 80%;
 }
 .Contact_DesPara span{
@@ -35,7 +35,7 @@
 }
 .Contact_MiddleContent{
     height: 440px;
-    width: 950px;
+    width: 80%;
     background-color: #F4F9FA;
     border-radius: 8px;
     margin-left: 9%;
@@ -46,7 +46,7 @@
 }
 .Contact_Details{
     border-radius: 10px;
-    width: 350px;
+    width: 36%;
     height: 420px;
     background-color: #023E57;
     padding-left: 30px;
@@ -103,7 +103,8 @@
 }
 .Contact_Form{
     margin-top: -400px;
-    margin-left: 400px;
+    margin-left: 40%;
+    margin-right: 5%;
 }
 .Contact_Email_Input{
     margin-top: 20px;   
@@ -135,3 +136,282 @@
     animation: slowFadeIn 0.9s ease-in-out;
 }
 
+/* responsive the form */
+/* CSS for responsive form */
+
+.Contact_Form_Input {
+    width: 100%;
+    max-width: 480px; /* Default max width */
+    margin: 0 auto;
+  }
+  
+  .Contact_Name_Input input,
+  .Contact_Email_Input input,
+  .Contact_Message_Input textarea {
+    width: 100%;
+    max-width: 480px;
+  }
+  
+  .Contact_Send_Button button {
+    width: 125px;
+    height: 34px;
+    font-size: 0.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .Contact_Name_Input input,
+    .Contact_Email_Input input,
+    .Contact_Message_Input textarea {
+      max-width: 640px;
+    }
+  
+    .Contact_Send_Button button {
+      width: 155px;
+      height: 40px;
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .Contact_Name_Input input,
+    .Contact_Email_Input input,
+    .Contact_Message_Input textarea {
+      max-width: 768px;
+    }
+  
+    .Contact_Send_Button button {
+      width: 170px;
+      height: 40px;
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .Contact_Name_Input input,
+    .Contact_Email_Input input,
+    .Contact_Message_Input textarea {
+      max-width: 1024px;
+    }
+  
+    .Contact_Send_Button button {
+      width: 185px;
+      height: 41px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .Contact_Name_Input input,
+    .Contact_Email_Input input,
+    .Contact_Message_Input textarea {
+      max-width: 1280px;
+    }
+  
+    .Contact_Send_Button button {
+      width: 210px;
+      height: 50px;
+      font-size: 1rem;
+    }
+  }
+  
+/* page responsive part */
+
+@media (max-width: 1500px){
+    .Contact_Icons h1{
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    
+}
+@media (max-width: 1440px){
+  .Contact_LetsConnect_Text{
+    margin-top: 10px;
+    font-size: 14px;
+  } 
+  .Contact_GetTouch{
+    font-size: 30px;
+  }
+  .Contact_DesPara{
+    font-size: 14px;
+  }
+  .Contact_DesPara span{
+    font-size: 16px;
+  }
+  .Contact_MiddleContent{
+    margin-top: 25px;
+  }
+  .Contact_Mail h1{
+   font-size: 12px;
+  }
+  .Contact_Icons h1{
+    line-height: 2.2;
+  }
+
+}
+@media (max-width: 1280px){
+  .Contact_Mail h1{
+    font-size: 11px;
+   }
+   .Contact_Details img,
+   .Contact_Details h2{
+    margin-left: -5px;
+   }
+   .Contact_Info{
+    margin-left: -5px;
+   }
+
+}
+@media (max-width: 1140px){
+  .Contact_Main{ 
+    width: 78%; 
+    margin-left: 22%; 
+  } 
+  .Contact_MiddleContent{
+    height: 350px;
+  }
+  .Contact_Details{
+    height: 330px;
+  }
+  .Contact_Form{
+    margin-top: -320px;
+  }
+  .Contact_Mail h1{
+    font-size: 10px;
+   }
+   .Contact_Details img,
+   .Contact_Details h2{
+    margin-left: -8px;
+    font-size: 10px;
+   }
+   .Contact_Info{
+    margin-left: -8px;
+   }
+   .Contact_Info_div h1{
+    font-size: 15px;
+   }
+   .Contact_Icons h1,
+   .Contact_Mail,
+   .Contact_Location{
+    margin-top: -20px;
+   }
+   .Contact_Icons img{
+    height: 12px;
+    width: 12px;
+  }
+  .Contact_Call img{
+    margin-top: -12px;
+  }
+  .Contact_Mail img{
+    margin-top: 8px;
+  }
+  .Contact_Mail h1{
+    margin-top: 5px;
+  }
+  .Contact_Location img{
+    margin-top: 10px;
+  }
+  .Contact_Location h1{
+    margin-top: 0px;
+  }
+   .Contact_Name_Input input,
+   .Contact_Email_Input input{
+    height: 30px;
+  }
+  .Contact_Message_Input textarea {
+    max-height: 70px;
+  }
+}
+@media (max-width: 1024px){
+  .Contact_Main{ 
+    width: 100%; 
+    margin-left: 0; 
+  } 
+  .Contact_MiddleContent{
+    align-items: center;
+    height: 630px;
+  }
+  .Contact_Form{
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.Contact_Form_Input{
+  margin-top: 20px;
+  margin-left: 1%;
+}
+.Contact_Details{
+  border-radius: 10px;
+  width: 98%;
+  height: 210px;
+  background-color: #023E57;
+  padding: 30px;
+  align-items: center;
+}
+.Contact_Details h1{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Contact_Icons{
+  margin-top: -10px;
+}
+
+.Contact_Icons h1{
+  font-size: 12px;
+}
+.Contact_Info{
+  margin-top: -5px;
+}
+.Contact_Icons h1,
+.Contact_Mail,
+.Contact_Location{
+  margin-top: -15px;
+}
+.Contact_Details h2{
+  margin-top: 0px;
+}
+.Contact_Icons img{
+  height: 12px;
+  width: 12px;
+  margin-top: -6px;
+}
+  
+}
+@media (max-width: 768px){
+  .Contact_TopContent,
+  .Contact_MiddleContent{
+    margin-left: 70px;
+  }
+
+}
+@media (max-width: 680px){
+  .Contact_TopContent{
+    text-align: center;
+  }
+  .Contact_DesPara{
+    width: 70%;
+    margin-left: 10%;
+  }
+  .Contact_LetsConnect_Text,
+  .Contact_GetTouch{
+    margin-left: -6%;
+
+  }
+  .Contact_Form{
+    padding-right: 4%;
+  }
+  .Contact_TopContent{
+    margin-left:3%;
+  }
+  .Contact_MiddleContent{
+    margin-left: 10%;
+  }
+  .Contact_MiddleContent{
+    padding-right: 5px;
+  }
+}
+@media (max-width: 464px){
+  .Contact_MiddleContent{
+    padding-right: 5px;
+  }
+}
