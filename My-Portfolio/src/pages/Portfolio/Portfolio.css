@@ -179,3 +179,32 @@
         margin-left: -2%;
     }
  }
+ @media (max-width: 570px){
+    .Portfolio_MyProjects{
+        font-size: 26px;
+    }
+    .Portfolio_NavLink h1{
+        font-size: 12px;
+    }
+ }
+ @media (max-width: 420px){
+    .Portfolio_MyProjects{
+        font-size: 22px;
+    }
+    .Portfolio_NavLink h1{
+        font-size: 11px;
+    }
+ }
+ @media (max-width: 345px){
+    .Portfolio_MyProjects{
+        font-size: 20px;
+    }
+    .Portfolio_NavLink h1{
+        font-size: 11px;
+        margin-left: -10px;
+    }
+    .Portfolio_NavLink{
+        
+        margin-left: 10px;
+    }
+ }
