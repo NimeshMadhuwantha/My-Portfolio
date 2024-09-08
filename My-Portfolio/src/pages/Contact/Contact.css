@@ -410,9 +410,9 @@
   .Contact_TopContent{
     margin-left:3%;
   }
-  .Contact_MiddleContent{
-    margin-left: 10%;
-  }
+  /* .Contact_MiddleContent{
+    margin-left: 20px;
+  } */
   .Contact_MiddleContent{
     padding-right: 5px;
   }
@@ -432,7 +432,7 @@
     padding-right: 5px;
   }
   .Contact_MiddleContent{
-    margin-left:9%;
+    margin-left:10%;
   }
   .Contact_TopContent{
     margin-left: 8%;

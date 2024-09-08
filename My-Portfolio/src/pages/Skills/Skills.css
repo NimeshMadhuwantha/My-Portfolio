@@ -1,12 +1,12 @@
-.Skills_MainContent{
-    border: none;
-    width: 80%; 
+.Skills_MainContent {
+    width: 80%;
+    max-width: 100%; /* Ensure it does not exceed the viewport */
     height: 100vh; 
     min-height: 720px;  
     background-color: #E9FBFF; 
-    
     margin-left: 20%; 
-}
+  }
+  
 .Skills_TopContent{
     margin-left: 9%;
     padding-top: 60px;
@@ -643,7 +643,7 @@
     .Skills_MainContent{
         width: 100%;
         height: 100vh;
-        min-height: 1250px;
+        min-height: 1750px;
     }
     .Skills_TopContent{
         width: 90%;
@@ -733,12 +733,146 @@
       .Skills_Bottom_Cards{
         margin-top: 10px;
       }
-
-
-      
   }
   @media (max-width: 680px){
+    .Skills_Bottom_Cards {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px; 
+        margin-left: 19.5%;
+    }
+    .Skills_SiteLogo img{
+        height: 30px;
+        width: auto;
 
+    }
+
+    .Skills_Bottom_Cards > div {
+        width: 80%;
+        box-sizing: border-box;
+        margin-bottom: 20px; 
+    }
+
+    .Skills_Bottom_Cards img {
+        height: 50px; 
+        width: auto;
+    }
+    .Skills_MySkills h1{
+        margin-left: -5%;
+    }
+
+  }
+  @media (max-width: 600px){
+    .Skills_FiverrLogo img,
+    .Skills_BehanceLogo img{
+        height: 30px;
+        width: 100vh;
+    }
+    .Skills_TopContent{
+        margin-left: 45px;
+    }
+    .Skills_MyName{
+        font-size: 24px;
+    }
+    .Skills_View_Button{
+        margin-left: 38%;
+    }
+    .Skills_Para h1{
+        margin-left: -5%;
+    }
+    .Skills_SiteLogo{
+        margin-left: -5%;
+    }
+    .Skills_Exp_Cards{
+        margin-left: 10%;
+    }
+    .Skills_MySkills{
+        margin-left: 2%;
+    }
+    .Skills_Bottom_Cards{
+        margin-left: 16%;
+    }
+    .Skills_SiteLogo img{
+        width: 50px;
+        height: 30px;
+    }
+    .Skills_BehanceLogo img{
+        width: 30px;
+    }
+  }
+  @media (max-width: 500px){
+    .Skills_TopContent{
+        margin-left: 38px;
+    }
+    .Skills_SiteLogo img{
+        width: 50px;
+        height: 30px;
+    }
+    .Skills_Para h1{
+        margin-left: -3%;
+    }
+    .Skills_Exp_Card1{
+        margin-top: 40px;
+    }
+    .Skills_SiteLogo{
+        width: 125%;
+    }
+    .Skills_BehanceLogo img{
+        width: 30px;
+    }
+    .Skills_Card1_Text2,
+    .Skills_Card2_Text2,
+    .Skills_Card3_Text2{
+      font-size: 13px;
+    }
+    .Skills_Card1_Text3,
+    .Skills_Card1_Text3,
+    .Skills_Card3_Text3{
+      font-size: 10px;
+      width: 200px;
+      margin-left: 10px;
+    }
+
+  }
+  @media (max-width: 400px){
+    .Skills_TopContent{
+        margin-left: 35px;
+    }
+    .Skills_View_Button{
+        margin-left: 35%;
+    }
+    .Skills_SiteLogo{
+        width: 155%;
+    }
+    .Skills_SiteLogo img{
+        margin-left: -10px;
+    }
+    .Skills_SiteLogo h1{
+        font-size: 13px;
+    }
+    .Skills_BehanceLogo img{
+        width: 30px;
+    }
+    .Skills_FiverrLogo img{
+        width: 50px;
+    }
+    .Skills_Exp_Card1{
+        margin-top: 80px;
+    }
+    .Skills_Nice_to_meet_Text{
+        font-size: 12px;
+    }
+    .Skills_MyName{
+        font-size: 22px;
+    }
+    .Skills_MyOccupation{
+        font-size: 16px;
+    }
+  }
+  @media (max-width: 380px){
+    .Skills_SiteLogo img{
+        margin-left: -13px;
+    }
   }
 
   
