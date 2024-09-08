@@ -17,7 +17,7 @@ const WebDevelopment = () => {
                     <img src={MyPortfolio} alt="" />
                     <h1>Web Application <br />
                     My Portfolio</h1>
-                    <h2>JavaScript | React</h2>
+                    <h2>JavaScript | React | Tailwind CSS</h2>
                 </a>
                 </div>
                 <div className='WebD_Card1'>
@@ -26,7 +26,7 @@ const WebDevelopment = () => {
                     <img src={WeatherApp} alt="" />
                     <h1>Weather Application <br />
                     Python</h1>
-                    <h2>Python | React</h2>
+                    <h2>Python | Tkinter</h2>
                 </a>
                 </div>
                 <div className='WebD_Card1'>
@@ -35,7 +35,7 @@ const WebDevelopment = () => {
                     <img src={CurrencyExchange} alt="" />
                     <h1>Currency Convert <br />
                     Web Application </h1>
-                    <h2>JavaScript | React</h2>
+                    <h2>JavaScript | React | Tailwind CSS</h2>
                 </a>
                 </div>
 
@@ -47,7 +47,7 @@ const WebDevelopment = () => {
                     <img src={GameSeek} alt="" />
                     <h1>GameSeek  <br />
                     Web Application </h1>
-                    <h2>JavaScript | React</h2>
+                    <h2>TypeScript | React | Chakara UI</h2>
                 </a>
                 </div>
                 <div className='WebD_Card1'>

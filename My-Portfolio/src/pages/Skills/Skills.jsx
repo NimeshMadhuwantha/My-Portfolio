@@ -69,20 +69,32 @@ export default function Skills() {
              <button
                className="bg-[#023E57] hover:bg-transparent text-white font-semibold 
                hover:text-[#023E57] border-4 border-[#023E57] 
-               rounded-lg transition-all duration-1000"
-               style={{ fontSize: '15px', width: '190px', height: '55px' }}
+               rounded-lg transition-all duration-1000
+               xl:w-[230px] xl:h-[55px] 
+                lg:w-[195px] lg:h-[45px] 
+                md:w-[170px] md:h-[40px] 
+                sm:w-[155px] sm:h-[40px] 
+                w-[125px] h-[34px]   
+                xl:text-[1.1rem] 
+                lg:text-[1rem]  
+                md:text-[0.8rem] 
+                sm:text-[0.7rem] 
+                text-[0.5rem]  
+                "
                onClick={handleDownload}
              >
              Download CV 
              </button>
         </div>
         <div className='Skills_FiverrExp'>
-          <h1><span>Since 2020,</span> I have honed my skills in UI/UX design, graphic design, and sketching on Fiverr, 
+          <div className='Skills_Para'>
+          <h1 ><span>Since 2020,</span> I have honed my skills in UI/UX design, graphic design, and sketching on Fiverr, 
             successfully managing and handling projects for a diverse global clientele. <br />
           My expertise extends to project management, team collaboration, and GitHub, 
           where I work seamlessly with teams to deliver high-quality results. 
           Additionally, my presence on Behance showcases my creative portfolio, 
           reflecting my ability to blend artistic vision with technical proficiency.</h1>
+          </div>
 
         <div className='Skills_SiteLogo'>
           <div className='Skills_BehanceLogo'>

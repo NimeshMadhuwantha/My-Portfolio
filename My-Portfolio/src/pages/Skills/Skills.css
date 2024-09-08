@@ -4,12 +4,12 @@
     height: 100vh; 
     min-height: 720px;  
     background-color: #E9FBFF; 
-    position: fixed;
-    left: 20%; 
+    
+    margin-left: 20%; 
 }
 .Skills_TopContent{
     margin-left: 9%;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .Skills_Nice_to_meet_Text{
     font-size: 12px;
@@ -370,5 +370,375 @@
     animation: slowFadeIn 0.6s ease-in-out;
   }
 
+
+  /* Responsive */
+
+  @media (max-width: 1500px){
+    .Skills_MainContent{
+        height: 100vh;
+    }
+    .Skills_TopContent{
+        width: 40%;
+    }
+    .Skills_Nice_to_meet_Text{
+        font-size: 12px;
+    }
+    .Skills_MyName{
+        font-size: 28px;
+    }
+    .Skills_MyOccupation{
+        font-size: 18px;
+    }
+    .Skills_FiverrExp{
+        width: 41%;
+        margin-left: 47%;
+    }
+    .Skills_Exp_Cards{
+        gap: 4%;
+    }
+    
+    .Skills_Exp_Card1,
+    .Skills_Exp_Card2,
+    .Skills_Exp_Card3{
+        width: 26%;
+        height: 110px;
+    }
+    .Skills_Bottom_Cards{
+        gap: 3%;   
+    }
+    .Skills_Bottom_Cards img{
+        height: 40%;  
+    }
+    
+    .Skills_Bottom_Card1,
+    .Skills_Bottom_Card2,
+    .Skills_Bottom_Card3,
+    .Skills_Bottom_Card4{
+        width: 19.2%;
+        height: 200px;
+    }
+  }
+  @media (max-width: 1440px){
+    .Skills_MyName{
+        font-size: 26px;
+    }
+    .Skills_MyOccupation{
+        font-size: 17px;
+    }
+    .Skills_Card1_Text1{
+        font-size: 18px;
+    }
+    .Skills_Exp_Card1 ,
+    .Skills_Exp_Card2 ,
+    .Skills_Exp_Card3 ,
+    .Skills_Exp_Card4 {
+        margin-top: 10px;
+    }
+    .Skills_Card1_Text2,
+    .Skills_Card2_Text2,
+    .Skills_Card3_Text2{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .Skills_Card1_Text2 span,
+    .Skills_Card2_Text2 span,
+    .Skills_Card3_Text2 span{
+        font-size: 15px;
+    }
+    .Skills_Card1_Text3,
+    .Skills_Card3_Text3,
+    .Skills_Card1_Text3{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .Skills_Card1_Text3 span,
+    .Skills_Card3_Text3 span,
+    .Skills_Card1_Text3 span{
+        margin-left: 20px;
+        font-size: 8px;  
+    }
+    .Skills_MySkills h1{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+    .Skills_MySkills span{
+        font-size: 36px;
+    }
+    .Skills_Bottom_Cards h1{
+        font-size: 11px;
+    }
+    .Skills_Bottom_Cards h2{
+        font-size: 9px;
+    }
+    .Skills_Bottom_Cards img{
+        height: 30%; 
+        margin-top: -5px; 
+    }
+    .Skills_Bottom_Card1,
+    .Skills_Bottom_Card2,
+    .Skills_Bottom_Card3,
+    .Skills_Bottom_Card4{
+        height: 170px;
+    }
+  }
+  @media (max-width: 1280px){
+    .Skills_Para h1{
+        font-size: 12px;
+    }
+    .Skills_Para span{
+        font-size: 16px;
+    }
+    .Skills_SiteLogo img{
+        width: auto;
+        height: 30px;
+    }
+    .Skills_Card1_Text2,
+    .Skills_Card2_Text2,
+    .Skills_Card3_Text2{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .Skills_Card1_Text2 span,
+    .Skills_Card2_Text2 span,
+    .Skills_Card3_Text2 span{
+        font-size: 14px;
+    }
+    .Skills_Card1_Text3,
+    .Skills_Card3_Text3,
+    .Skills_Card1_Text3{
+        margin-left: 15px;
+        font-size: 9px;
+        width: 90%;
+    }
+    .Skills_Card1_Text3 span,
+    .Skills_Card3_Text3 span,
+    .Skills_Card1_Text3 span{
+        margin-left: 20px;
+        font-size: 8px;  
+    }
+  }
+  @media (max-width: 1140px){
+    .Skills_MainContent{
+        width: 78%; 
+        margin-left: 22%; 
+    }
+    .Skills_Nice_to_meet_Text{
+        font-size: 12px;
+    }
+    .Skills_MyName{
+        font-size: 24px;
+    }
+    .Skills_MyOccupation{
+        font-size: 17px;
+    }
+    .Skills_Para{
+        margin-top: 10px;
+    }
+    .Skills_TopContent,
+    .Skills_View_Button,
+    .Skills_Exp_Cards,
+    .Skills_MySkills,
+    .Skills_Bottom_Cards{
+        margin-left: 6%;
+    }
+    .Skills_Para h1{
+        font-size: 11px;
+    }
+    .Skills_Para span{
+        font-size: 14px;
+    }
+    .Skills_Card1_Text2,
+    .Skills_Card2_Text2,
+    .Skills_Card3_Text2{
+        font-size: 11px;
+        margin-left: 25px;
+    }
+    .Skills_Card1_Text2 span,
+    .Skills_Card2_Text2 span,
+    .Skills_Card3_Text2 span{
+        font-size: 13px;
+    }
+    .Skills_Card1_Text3,
+    .Skills_Card3_Text3,
+    .Skills_Card1_Text3{
+        margin-left: 25px;
+        font-size: 9px;
+        width: 80%;
+    }
+    .Skills_Card1_Text3 span,
+    .Skills_Card3_Text3 span,
+    .Skills_Card1_Text3 span{
+        margin-left: 6px;
+        font-size: 8px;  
+    }
+    .Skills_Bottom_Cards h1{
+        font-size: 10px;
+    }
+    .Skills_Bottom_Cards h2{
+        font-size: 8px;
+    }
+  }
+  @media (max-width: 1024px){
+    .Skills_MainContent{
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .Skills_TopContent,
+    .Skills_View_Button,
+    .Skills_Exp_Cards,
+    .Skills_MySkills,
+    .Skills_Bottom_Cards{
+        margin-left: 100px;
+    }
+    .Skills_Para{
+        margin-top: 20px;
+    }
+  }
+  @media (max-width: 940px){
+    .Skills_TopContent,
+    .Skills_View_Button,
+    .Skills_Exp_Cards,
+    .Skills_MySkills,
+    .Skills_Bottom_Cards{
+        margin-left: 70px;
+    }
+    .Skills_Nice_to_meet_Text{
+        font-size: 11px;
+    }
+    .Skills_MyName{
+        font-size: 20px;
+    }
+    .Skills_MyOccupation{
+        font-size: 15px;
+    }
+    .Skills_Para{
+        width: 100%;
+    }
+    .Skills_Exp_Card1,
+    .Skills_Exp_Card2,
+    .Skills_Exp_Card3{
+        width: 27%;
+        height: 110px;
+    }
+    
+    .Skills_Bottom_Cards img{
+        height: 30%;  
+    }
+    
+    .Skills_Bottom_Card1,
+    .Skills_Bottom_Card2,
+    .Skills_Bottom_Card3,
+    .Skills_Bottom_Card4{
+        width: 20%;
+        height: 140px;
+    }
+    .Skills_Bottom_Cards h1{
+        font-size: 9px;
+    }
+    .Skills_Bottom_Cards h2{
+        font-size: 7px;
+    }
+  }
+  @media (max-width: 768px){
+    .Skills_MainContent{
+        width: 100%;
+        height: 100vh;
+        min-height: 1250px;
+    }
+    .Skills_TopContent{
+        width: 90%;
+    }
+    .Skills_Nice_to_meet_Text{
+        font-size: 14px;
+    }
+    .Skills_MyName{
+        font-size: 30px;
+    }
+    .Skills_MyOccupation{
+        font-size: 20px;
+    }
+    .Skills_TopContent h1{
+        text-align: center;
+        justify-content: center;
+        margin-left: -6%;
+    }
+    .Skills_View_Button{
+        margin-left: 40.3%;
+    }
+    .Skills_SiteLogo img{
+        height: 30px;
+        width: auto;
+
+    }
+    .Skills_FiverrExp{
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+    }
+    .Skills_SiteLogo{
+        margin-left: 12%;
+    }
+    .Skills_FiverrExp h1{
+        text-align: center;
+    }
+    .Skills_Para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 160%;
+        margin-left: -28%;
+      }
+      .Skills_Para span {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      .Skills_Card1_Text2,
+      .Skills_Card2_Text2,
+      .Skills_Card3_Text2{
+        margin-left: -2px;
+        font-size: 14px;
+      }
+      .Skills_Card1_Text3,
+      .Skills_Card1_Text3,
+      .Skills_Card3_Text3{
+        font-size: 11px;
+        width: 250px;
+        margin-left: -20px;
+      }
+      .Skills_MySkills h1{
+        text-align: center;
+        margin-left: -5%;
+      }
+      .Skills_Exp_Cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .Skills_Exp_Cards > div {
+        width: 70%; 
+        margin-bottom: 20px; 
+        margin-left: -10%;
+      }
+    
+      .Skills_Exp_Card1, 
+      .Skills_Exp_Card2, 
+      .Skills_Exp_Card3 {
+        text-align: center;
+      }
+      .Skills_Bottom_Cards{
+        margin-top: 10px;
+      }
+
+
+      
+  }
+  @media (max-width: 680px){
+
+  }
 
   

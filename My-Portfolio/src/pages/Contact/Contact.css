@@ -420,8 +420,14 @@
   .Contact_MiddleContent{
     margin-left: 8%;
   }
+  .Contact_LetsConnect_Text{
+    margin-left: -10%;
+  }
+  .Contact_GetTouch{
+    margin-left: -10%;
+  }
 }
-@media (max-width: 564px){
+@media (max-width: 680px){
   .Contact_MiddleContent{
     padding-right: 5px;
   }
@@ -431,4 +437,5 @@
   .Contact_TopContent{
     margin-left: 8%;
   }
+  
 }
