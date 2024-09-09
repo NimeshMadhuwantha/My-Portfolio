@@ -2,7 +2,7 @@ import React from 'react'
 import './WebDevelopment.css';
 import MyPortfolio from '../../assets/Projects/MyPortfolio.png';
 import WeatherApp from '../../assets/Projects/WeatherApp.png';
-import GameSeek from '../../assets/Projects/GameSeek.png';
+import GameSeek from '../../assets/Projects/GameSeek.jpg';
 import CurrencyExchange from '../../assets/Projects/CurrencyExchange.jpg';
 
 const WebDevelopment = () => {
