@@ -75,22 +75,22 @@
 .About_NameCard{
     height: 80px;
     width: 380px;
-    background-color: #CCDCE2;
+    background-color: #D1F1FF;
 }
 .About_BDCard{
     height: 80px;
     width: 140px;
-    background-color: #CCDCE2;
+    background-color: #D1F1FF;
 }
 .About_NationalCard{
     height: 80px;
     width: 140px;
-    background-color: #CCDCE2;
+    background-color: #D1F1FF;
 }
 .About_LanguageCard{
     height: 80px;
     width: 180px;
-    background-color: #CCDCE2;
+    background-color: #D1F1FF;
 }
 .About_MyCards h1{
     font-size: 12px;
@@ -119,7 +119,7 @@
 .About_Bottom_Edu{
     height: 120px;
     width: 80%;
-    background-color: #CCDCE2;
+    background-color: #D6F5F9;
     margin-left: 9%;
 }
 .About_Bottom_Edu h1{

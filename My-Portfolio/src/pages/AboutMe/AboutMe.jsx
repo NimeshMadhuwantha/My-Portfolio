@@ -3,7 +3,7 @@ import Swal from 'sweetalert2';
 import './AboutMe.css';
 import { Link } from 'react-router-dom';
 import MyPhoto from '../../assetS/MyPhoto.png';
-import My_CV from '../../assets/MyCV/My_CV.pdf';
+import UIUX_Engineer_Nimesh_Madhuwantha from '../../assets/MyCV/UIUX_Engineer_Nimesh_Madhuwantha.pdf';
 
 export default function AboutMe() {
 
@@ -12,8 +12,8 @@ export default function AboutMe() {
 
     try {
       const link = document.createElement('a');
-      link.href = My_CV;
-      link.download = 'My_CV.pdf';
+      link.href = UIUX_Engineer_Nimesh_Madhuwantha;
+      link.download = 'UIUX_Engineer_Nimesh_Madhuwantha.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

@@ -41,7 +41,7 @@
     border-radius: 8px;
     margin-left: 9%;
     margin-top: 40px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -60,7 +60,7 @@
 }
 .Contact_Details h2{
     color: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: lighter;
     margin-top: 15px;
     margin-right: 40px;

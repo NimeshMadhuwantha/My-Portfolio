@@ -11,7 +11,7 @@ import PhotoShopIcon from '../../assets/ToolsIcons/PhotoShopIcon.png';
 import BlenderIcon from '../../assets/ToolsIcons/BlenderIcon.png';
 import SketchIcon from '../../assets/ToolsIcons/SketchIcon.png';
 import BrushIcon from '../../assets/ToolsIcons/BrushIcon.png';
-import My_CV from '../../assets/MyCV/My_CV.pdf';
+import UIUX_Engineer_Nimesh_Madhuwantha from '../../assets/MyCV/UIUX_Engineer_Nimesh_Madhuwantha.pdf';
 
 function Home() {
 
@@ -20,8 +20,8 @@ function Home() {
 
     try {
       const link = document.createElement('a');
-      link.href = My_CV;
-      link.download = 'My_CV.pdf';
+      link.href = UIUX_Engineer_Nimesh_Madhuwantha;
+      link.download = 'UIUX_Engineer_Nimesh_Madhuwantha.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
