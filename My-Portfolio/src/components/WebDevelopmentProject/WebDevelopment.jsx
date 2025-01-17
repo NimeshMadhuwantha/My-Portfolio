@@ -4,6 +4,7 @@ import MyPortfolio from '../../assets/Projects/MyPortfolio.png';
 import WeatherApp from '../../assets/Projects/WeatherApp.png';
 import GameSeek from '../../assets/Projects/GameSeek.jpg';
 import CurrencyExchange from '../../assets/Projects/CurrencyExchange.jpg';
+import library from '../../assets/Projects/library.jpg';
 
 const WebDevelopment = () => {
   return (
@@ -51,6 +52,13 @@ const WebDevelopment = () => {
                 </a>
                 </div>
                 <div className='WebD_Card1'>
+                <a href="https://github.com/NimeshMadhuwantha/Library-Management-System.git" target="_blank" rel="noopener noreferrer" 
+                style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+                    <img src={library} alt="" />
+                    <h1>BookIt Library  <br />
+                    Full Stack Project </h1>
+                    <h2>ReactJS | laravel | PHP</h2>
+                </a>
                 </div>
                 <div className='WebD_Card1'>
                 </div>

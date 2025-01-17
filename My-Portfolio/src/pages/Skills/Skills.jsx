@@ -3,6 +3,7 @@ import Swal from 'sweetalert2';
 import './Skills.css';
 import BehanceLogo from '../../assets/SkillPage/BehanceLogo.png';
 import FiverrLogo from '../../assets/SkillPage/FiverrLogo.png';
+import DribbbleLogo from '../../assets/SkillPage/DribbbleLogo.png';
 import UIUXEngLogo from '../../assets/SkillPage/UIUXEngLogo.png';
 import FullStackLogo from '../../assets/SkillPage/FullStackLogo.png';
 import GraphicDesign from '../../assets/SkillPage/GraphicDesign.png';
@@ -88,11 +89,11 @@ export default function Skills() {
         </div>
         <div className='Skills_FiverrExp'>
           <div className='Skills_Para'>
-          <h1 ><span>Since 2020,</span> I have honed my skills in UI/UX design, graphic design, and sketching on Fiverr, 
+          <h1 ><span>From 2020-2024,</span> I have honed my skills in UI/UX design, graphic design, and sketching on Fiverr, 
             successfully managing and handling projects for a diverse global clientele. <br />
           My expertise extends to project management, team collaboration, and GitHub, 
           where I work seamlessly with teams to deliver high-quality results. 
-          Additionally, my presence on Behance showcases my creative portfolio, 
+          Additionally, my presence on Behance and Dribbble showcases my creative portfolio, 
           reflecting my ability to blend artistic vision with technical proficiency.</h1>
           </div>
 
@@ -102,10 +103,10 @@ export default function Skills() {
              <a href="https://www.behance.net/nimeshmadhu"><h1>Behance</h1></a>
           </div>
           <div className='Skills_FiverrLogo'>
-            <a href="https://www.fiverr.com/sldesign2?&ref_ctx_id=8bd3df3cdba840bbb82b358348ed92f0&imp_id=6ecc6109-773c-4e83-9507-8cd16cb13245">
-            <img src={FiverrLogo} alt="" /></a>
-            <a href="https://www.fiverr.com/sldesign2?&ref_ctx_id=8bd3df3cdba840bbb82b358348ed92f0&imp_id=6ecc6109-773c-4e83-9507-8cd16cb13245">
-            <h1>Fiverr</h1></a>
+            <a href="">
+            <img src={DribbbleLogo} alt="" /></a>
+            <a href="https://dribbble.com/Madhu6114">
+            <h1>  Dribbble</h1></a>
           </div>
         </div>
         </div>
@@ -115,7 +116,7 @@ export default function Skills() {
             <h1 className='Skills_Card1_Text1'>4+ </h1>
             <div className='Skills_Card1_Bottom'>
               <h1 className='Skills_Card1_Text2'>Years of Experience in <span> Fiverr</span></h1>
-              <h1 className='Skills_Card1_Text3'>Managing client relationships and delivering projects 
+              <h1 className='Skills_Card1_Text3'>(2020-2024) Managing clients and delivering projects 
                 <span>UIUX  | SKETCHING</span>
               </h1>
             </div>

@@ -39,7 +39,7 @@ export default function SideBar() {
           </div>
           <div className='Social_MediaList'>
             <nav className='Social_MediaListItems'>
-              <li><a href='https://www.linkedin.com/in/nimesh-madhuwantha-8a37102b4/' target='_blank' rel='noopener noreferrer'><img src={linkedinIcon} alt='LinkedIn' /></a></li>
+              <li><a href='https://www.linkedin.com/in/nimesh-m-8a37102b4/' target='_blank' rel='noopener noreferrer'><img src={linkedinIcon} alt='LinkedIn' /></a></li>
               <li><a href='https://github.com/NimeshMadhuwantha' target='_blank' rel='noopener noreferrer'><img src={githubIcon} alt='GitHub' /></a></li>
               <li><a href='https://www.behance.net/nimeshmadhu' target='_blank' rel='noopener noreferrer'><img src={BehanceIcon} alt='Behance' /></a></li>
               <li><a href='https://fb.com/nimesh.madhuwantha.359?mibextid=zbwkwl' target='_blank' rel='noopener noreferrer'><img src={facebookIcon} alt='Facebook' /></a></li>
@@ -76,7 +76,7 @@ export default function SideBar() {
           </div>
           <div className='Social_MediaList'>
             <nav className='Social_MediaListItems'>
-              <li><a href='https://www.linkedin.com/in/nimesh-madhuwantha-8a37102b4/' target='_blank' rel='noopener noreferrer'><img src={linkedinIcon} alt='LinkedIn' /></a></li>
+              <li><a href='https://www.linkedin.com/in/nimesh-m-8a37102b4/' target='_blank' rel='noopener noreferrer'><img src={linkedinIcon} alt='LinkedIn' /></a></li>
               <li><a href='https://github.com/NimeshMadhuwantha' target='_blank' rel='noopener noreferrer'><img src={githubIcon} alt='GitHub' /></a></li>
               <li><a href='https://www.behance.net/nimeshmadhu' target='_blank' rel='noopener noreferrer'><img src={BehanceIcon} alt='Behance' /></a></li>
               <li><a href='https://fb.com/nimesh.madhuwantha.359?mibextid=zbwkwl' target='_blank' rel='noopener noreferrer'><img src={facebookIcon} alt='Facebook' /></a></li>
